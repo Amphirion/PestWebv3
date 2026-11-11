@@ -1,0 +1,130 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pln">
+    <style>
+      <fill id="fln">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="74.50629921259842" height="161.81826771653544" topLeftX="55.3671653543307" topLeftY="79.81472440944881" type="rect" id="bON">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="221.0211811023622" height="251.7044094488189" topLeftX="69.72157480314961" topLeftY="94.16905511811022" type="rect" id="bOD">
+        <fill>
+          <fillImg src="RZMCb88WTo33KOxZsYkcnPsxnLb" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="355.1035433070866" height="45.43944881889764" topLeftX="340.7483464566929" topLeftY="103.9563779527559" type="text" id="bOv">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">大田病虫害是制约农作物产量和品质的重要因素。传统人工巡检效率低、主观性强，早期病害特征细微难以辨识，亟需智能化检测手段。</span></p>
+        </content>
+      </shape>
+      <line id="bOs" startX="358.5979527559055" startY="202.18173228346453" endX="359.5979527559055" endY="312.34094488188975" type="line">
+        <border color="rgba(191, 191, 191, 1)" width="1" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="26.40543307086614" height="26.40543307086614" topLeftX="345.3952755905512" topLeftY="175.7763779527559" type="ellipse" id="bOq">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(255, 255, 255, 1)" fontSize="15" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">1</span></strong></p>
+        </content>
+      </shape>
+      <shape width="26.40543307086614" height="26.40543307086614" topLeftX="345.3952755905512" topLeftY="244.05866141732287" type="ellipse" id="bOT">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(255, 255, 255, 1)" fontSize="15" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">2</span></strong></p>
+        </content>
+      </shape>
+      <shape width="26.40543307086614" height="26.40543307086614" topLeftX="345.3952755905512" topLeftY="312.34094488188975" type="ellipse" id="bOm">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(255, 255, 255, 1)" fontSize="15" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">3</span></strong></p>
+        </content>
+      </shape>
+      <line id="bOk" startX="348.9708661417323" startY="93.71645669291338" endX="403.8155118110236" endY="94.71645669291338" type="line">
+        <border color="rgba(217, 217, 217, 1)" width="4" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="255" height="45.43944881889764" topLeftX="436.79999999999995" topLeftY="180.82062992125984" type="text" id="bOu">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">人工识别效率低：依赖农技人员肉眼观察，大面积农田覆盖困难，非专业人员难以准确辨识早期病害。</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="255" height="45.43944881889764" topLeftX="436.79999999999995" topLeftY="242.73850393700786" type="text" id="bOF">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">防治决策滞后：从发现病害到制定方案周期长，病害爆发具有突发性，延迟防治导致产量损失急剧增加。</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="255" height="45.43944881889764" topLeftX="436.79999999999995" topLeftY="304.6563779527559" type="text" id="bOy">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">智能化系统成本高：现有商用检测系统价格昂贵，高端模型对硬件要求高，田间边缘设备无法运行。</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <line id="bOM" startX="392.4" startY="157.2" endX="393.4" endY="346.79999999999995" type="line">
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="69" height="26.521496062992124" topLeftX="409.8" topLeftY="157.05629921259842" type="text" id="bOo">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><strong><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">添加标题</span></strong></p>
+        </content>
+      </shape>
+      <shape width="69" height="26.521496062992124" topLeftX="409.8" topLeftY="218.97417322834644" type="text" id="bOw">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><strong><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">添加标题</span></strong></p>
+        </content>
+      </shape>
+      <shape width="69" height="26.521496062992124" topLeftX="409.8" topLeftY="280.891968503937" type="text" id="bOn">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><strong><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">添加标题</span></strong></p>
+        </content>
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bOJ">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bOI">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">01 研究背景</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bOH">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

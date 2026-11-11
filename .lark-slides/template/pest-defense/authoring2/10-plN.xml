@@ -1,0 +1,119 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plN">
+    <style>
+      <fill id="flN">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="96.05165354330708" height="36.1496062992126" topLeftX="47.57582677165355" topLeftY="85.66149606299213" type="text" id="bhe">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="18" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">添加标题</span></p>
+        </content>
+      </shape>
+      <shape width="431.37921259842517" height="45.43944881889764" topLeftX="251.37937007874012" topLeftY="82.54889763779528" type="text" id="bhL">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。</span></p>
+        </content>
+      </shape>
+      <line id="bhM" startX="213.51724409448818" startY="75.10354330708661" endX="214.51724409448818" endY="130.9655905511811" type="line">
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="109.86204724409448" height="109.86204724409448" topLeftX="75.72417322834647" topLeftY="158.2759842519685" type="rect" id="bej">
+        <fill>
+          <fillImg src="XTesbhdnBobJiRx6AiPcCHNNnNg" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="3" miterLimit="10" />
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="109.86204724409448" height="109.86204724409448" topLeftX="228.62070866141732" topLeftY="158.2759842519685" type="rect" id="bhV">
+        <fill>
+          <fillImg src="LaMdbzUtZoChn9xGxd8cHOFwnqb" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="3" miterLimit="10" />
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="109.86204724409448" height="109.86204724409448" topLeftX="381.5172440944882" topLeftY="158.2759842519685" type="rect" id="bhA">
+        <fill>
+          <fillImg src="XoOfb6YXloRUZKxKzNJcq8k7nOc" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="3" miterLimit="10" />
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="109.86204724409448" height="109.86204724409448" topLeftX="534.4138582677166" topLeftY="158.2759842519685" type="rect" id="bhm">
+        <fill>
+          <fillImg src="YKQIb9pMMo2PjFxuG2XcMtcankh" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="3" miterLimit="10" />
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="144.87937007874015" height="45.43944881889764" topLeftX="58.08614173228348" topLeftY="300.2788976377953" type="text" id="beZ">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="center" autoFit="shape-auto-fit">
+          <p textAlign="center" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Mosaic增强：4张图随机拼接，丰富背景，提升小目标检测。</span></p>
+        </content>
+      </shape>
+      <shape width="69" height="24.11826771653543" topLeftX="96.02582677165356" topLeftY="276.5145669291339" type="text" id="beK">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">添加标题</span></p>
+        </content>
+      </shape>
+      <shape width="144.87937007874015" height="45.43944881889764" topLeftX="211.39645669291338" topLeftY="300.2788976377953" type="text" id="beg">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="center" autoFit="shape-auto-fit">
+          <p textAlign="center" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Mosaic增强：4张图随机拼接，丰富背景，提升小目标检测。</span></p>
+        </content>
+      </shape>
+      <shape width="69" height="24.11826771653543" topLeftX="249.33614173228347" topLeftY="276.5145669291339" type="text" id="bhO">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">添加标题</span></p>
+        </content>
+      </shape>
+      <shape width="144.87937007874015" height="45.43944881889764" topLeftX="364.7067716535433" topLeftY="300.2788976377953" type="text" id="bhE">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="center" autoFit="shape-auto-fit">
+          <p textAlign="center" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Mosaic增强：4张图随机拼接，丰富背景，提升小目标检测。</span></p>
+        </content>
+      </shape>
+      <shape width="69" height="24.11826771653543" topLeftX="402.6464566929134" topLeftY="276.5145669291339" type="text" id="bhU">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">添加标题</span></p>
+        </content>
+      </shape>
+      <shape width="144.87937007874015" height="45.43944881889764" topLeftX="518.0171653543307" topLeftY="300.2788976377953" type="text" id="bez">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="center" autoFit="shape-auto-fit">
+          <p textAlign="center" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Mosaic增强：4张图随机拼接，丰富背景，提升小目标检测。</span></p>
+        </content>
+      </shape>
+      <shape width="69" height="24.11826771653543" topLeftX="555.9568503937007" topLeftY="276.5145669291339" type="text" id="beC">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">添加标题</span></p>
+        </content>
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bhh">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bhi">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">02 系统设计</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="beR">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

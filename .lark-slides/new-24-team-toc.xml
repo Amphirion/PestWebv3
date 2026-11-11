@@ -1,0 +1,55 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)"/>
+    </fill>
+  </style>
+  <data>
+    <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text">
+      <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+        <p>08 · TEAM</p>
+      </content>
+    </shape>
+    <shape width="600" height="44" topLeftX="80" topLeftY="82" type="text">
+      <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p>团队介绍</p>
+      </content>
+    </shape>
+    <line startX="80" startY="138" endX="160.00624975587843" endY="138">
+      <border color="rgba(37, 99, 235, 1)" width="3"/>
+    </line>
+    <shape width="380" height="50" topLeftX="80" topLeftY="180" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">01</span>　团队构成</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="80" topLeftY="232" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">02</span>　成员分工</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="80" topLeftY="284" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">03</span>　协作模式</p>
+      </content>
+    </shape>
+    <line startX="80" startY="370" endX="880.0006249997559" endY="370">
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+    </line>
+    <shape width="800" height="80" topLeftX="80" topLeftY="395" type="text">
+      <content fontSize="14" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.7">
+        <p>团队由 3 名成员组成，围绕"数据—算法—平台—文档"四条主线协同推进：自建数据集、模型训练与调优、Web 平台开发、论文与答辩材料撰写，各司其职、交叉验证，保障项目端到端交付。</p>
+      </content>
+    </shape>
+    <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text">
+      <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+        <p>24 / 28</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content>
+      <p>这一页开始介绍我们的团队。团队一共三名成员，围绕数据、算法、平台和文档四条主线分工协作。首先是团队构成，然后介绍成员分工，最后说明协作模式。我们通过自建数据集、模型训练调优、Web平台开发和论文答辩材料撰写，实现了从数据到交付的完整闭环。</p>
+    </content>
+  </note>
+</slide>

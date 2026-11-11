@@ -1,0 +1,57 @@
+﻿{
+  "schema_version": "1.0",
+  "source_file": ".lark-slides\\template\\pest-defense\\source.xml",
+  "mode": "raw_xml",
+  "selection": {
+    "slide_numbers": [],
+    "slide_ids": [
+      "plV"
+    ],
+    "block_ids": [],
+    "raw_xml": true,
+    "output_slide_count": 1
+  },
+  "presentation": {
+    "root": "presentation",
+    "namespace": "https://www.larkoffice.com/sml/2.0",
+    "presentation_id": "Ji6js8Y4blz0sBdpzxgcs1janbf",
+    "revision_id": null,
+    "title": null,
+    "width": "720",
+    "height": "405",
+    "slide_count": 24,
+    "slide_ids": [
+      "plu",
+      "plV",
+      "plo",
+      "pln",
+      "plL",
+      "plF",
+      "plJ",
+      "ple",
+      "plz",
+      "plN",
+      "plP",
+      "plH",
+      "pls",
+      "pll",
+      "plv",
+      "plf",
+      "plw",
+      "plE",
+      "plM",
+      "plS",
+      "plR",
+      "plq",
+      "plr",
+      "plD"
+    ]
+  },
+  "slides": [
+    {
+      "index": 2,
+      "slide_id": "plV",
+      "raw_xml": "<slide xmlns=\"https://www.larkoffice.com/sml/2.0\" id=\"plV\">\n    <style>\n      <fill id=\"flV\">\n        <fillColor color=\"rgba(255, 255, 255, 1)\"/>\n      </fill>\n    </style>\n    <data>\n      <img id=\"bOB\" src=\"KItlbKUabovZ5YxwRLQcBpQCn5g\" width=\"720\" height=\"405\" topLeftX=\"0\" topLeftY=\"0\">\n        <crop leftOffset=\"0\" rightOffset=\"0\" topOffset=\"0\" bottomOffset=\"0\"/>\n      </img>\n      <shape width=\"117.49370078740158\" height=\"55.73905511811024\" topLeftX=\"32.30456692913386\" topLeftY=\"69.6648031496063\" type=\"text\" id=\"bOd\">\n        <content verticalAlign=\"top\" paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\" textAlign=\"left\" autoFit=\"shape-auto-fit\">\n          <p textAlign=\"left\" lineSpacing=\"multiple:1.2\" letterSpacing=\"2.25\"><span color=\"rgba(255, 255, 255, 1)\" fontSize=\"40\" fontFamily=\"思源宋体 CN Heavy\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\" letterSpacing=\"2.25\">目录：</span></p>\n        </content>\n      </shape>\n      <shape width=\"221.29370078740158\" height=\"19.993385826771654\" topLeftX=\"32.30456692913384\" topLeftY=\"47.648818897637796\" type=\"text\" id=\"bOf\">\n        <content verticalAlign=\"top\" paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\" textAlign=\"left\" autoFit=\"shape-auto-fit\">\n          <p textAlign=\"left\" lineSpacing=\"multiple:1.2\" letterSpacing=\"2.25\"><span color=\"rgba(255, 255, 255, 1)\" fontSize=\"10.5\" fontFamily=\"思源宋体 CN\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\" letterSpacing=\"2.25\">POSTOPERATIVE CARE</span></p>\n        </content>\n      </shape>\n      <shape width=\"202.70173228346457\" height=\"50.46543307086614\" topLeftX=\"149.7982677165354\" topLeftY=\"143.51204724409448\" presetHandlers=\"8.411074\" type=\"round-rect\" id=\"bOx\">\n        <fill>\n          <fillColor color=\"rgba(255, 255, 255, 1)\"/>\n        </fill>\n        <content paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\">\n          <p textAlign=\"center\" lineSpacing=\"multiple:1.2\"><span color=\"rgba(38, 38, 38, 1)\" fontSize=\"28\" fontFamily=\"思源宋体 CN Heavy\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">01.农业项目</span></p>\n        </content>\n      </shape>\n      <shape width=\"202.70173228346457\" height=\"50.46543307086614\" topLeftX=\"149.7982677165354\" topLeftY=\"227.45740157480316\" presetHandlers=\"8.411074\" type=\"round-rect\" id=\"bOa\">\n        <fill>\n          <fillColor color=\"rgba(255, 255, 255, 1)\"/>\n        </fill>\n        <content paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\">\n          <p textAlign=\"center\" lineSpacing=\"multiple:1.2\"><span color=\"rgba(38, 38, 38, 1)\" fontSize=\"28\" fontFamily=\"思源宋体 CN Heavy\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">03.项目发展</span></p>\n        </content>\n      </shape>\n      <shape width=\"202.70173228346457\" height=\"50.46543307086614\" topLeftX=\"400.94740157480317\" topLeftY=\"143.51204724409448\" presetHandlers=\"8.411074\" type=\"round-rect\" id=\"bOY\">\n        <fill>\n          <fillColor color=\"rgba(255, 255, 255, 1)\"/>\n        </fill>\n        <content paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\">\n          <p textAlign=\"center\" lineSpacing=\"multiple:1.2\"><span color=\"rgba(38, 38, 38, 1)\" fontSize=\"28\" fontFamily=\"思源宋体 CN Heavy\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">02.项目优势</span></p>\n        </content>\n      </shape>\n      <shape width=\"202.70173228346457\" height=\"50.46543307086614\" topLeftX=\"400.94740157480317\" topLeftY=\"227.45740157480316\" presetHandlers=\"8.411074\" type=\"round-rect\" id=\"bOc\">\n        <fill>\n          <fillColor color=\"rgba(255, 255, 255, 1)\"/>\n        </fill>\n        <content paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\">\n          <p textAlign=\"center\" lineSpacing=\"multiple:1.2\"><span color=\"rgba(38, 38, 38, 1)\" fontSize=\"28\" fontFamily=\"思源宋体 CN Heavy\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">04.项目规划</span></p>\n        </content>\n      </shape>\n      <shape width=\"35.72047244094488\" height=\"9.3251968503937\" topLeftX=\"0\" topLeftY=\"0\" type=\"text\" id=\"bOt\">\n        <content verticalAlign=\"top\" paddingTop=\"3.6\" paddingBottom=\"3.6\" paddingLeft=\"7.2\" paddingRight=\"7.2\" fontSize=\"16\" fontFamily=\"思源黑体\" color=\"rgba(31, 35, 41, 1)\" textAlign=\"left\" autoFit=\"shape-auto-fit\">\n          <p textAlign=\"left\" lineSpacing=\"multiple:2.4\"><span fontSize=\"1\" fontFamily=\"微软雅黑\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">行业PPT模板</span><span color=\"rgba(20, 86, 240, 1)\" fontSize=\"1\" fontFamily=\"微软雅黑\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">http://www.1ppt.com/hangye/</span></p>\n        </content>\n      </shape>\n    </data>\n    <note id=\"bOG\">\n      <content>\n        <p textAlign=\"left\" lineSpacing=\"multiple:1.2\"><span color=\"rgba(0, 0, 0, 1)\" fontSize=\"9\" fontFamily=\"等线\" bold=\"false\" italic=\"false\" strikethrough=\"false\" underline=\"false\">Click to add text</span></p>\n      </content>\n    </note>\n  </slide>\n  "
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plS">
+    <style>
+      <fill id="flS">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="38.06354330708661" height="38.06338582677165" topLeftX="378.37456692913383" topLeftY="293.5795275590551" type="ellipse" id="bLh">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="16.517165354330707" height="12.387795275590552" topLeftX="389.14779527559057" topLeftY="306.4173228346457" path="M15.6511,0.0192 C16.1408,0.0192 16.536,0.4145 16.536,0.9041 L16.536,11.5222 C16.536,12.0118 16.1408,12.407 15.6511,12.407 L0.9037,12.407 C0.414,12.407 0.0188,12.0118 0.0188,11.5222 L0.0188,0.9041 C0.0188,0.4145 0.414,0.0192 0.9037,0.0192 L15.6511,0.0192 Z M12.1206,6.1512 C11.7313,5.8562 11.1768,5.9329 10.8818,6.3223 L10.8818,6.3223 L8.2715,9.7732 C8.2479,9.8056 8.2214,9.8321 8.1948,9.8616 C7.8527,10.2097 7.2923,10.2126 6.9442,9.8705 L6.9442,9.8705 L5.0212,7.971 C5.0005,7.9533 4.9828,7.9327 4.9622,7.9179 C4.5846,7.6082 4.0272,7.6613 3.7175,8.0389 L3.7175,8.0389 L1.0069,11.3364 C0.9627,11.3895 0.9391,11.4543 0.9391,11.5222 C0.9391,11.6844 1.0718,11.8171 1.234,11.8171 L1.234,11.8171 L15.3975,11.8171 C15.4565,11.8171 15.5125,11.7994 15.5597,11.767 C15.6954,11.6756 15.7308,11.4927 15.6423,11.357 L15.6423,11.357 L12.3241,6.3636 C12.2681,6.2839 12.2002,6.2102 12.1206,6.1512 Z M2.9683,1.7889 C2.3165,1.7889 1.7885,2.3169 1.7885,2.9687 C1.7885,3.6205 2.3165,4.1485 2.9683,4.1485 C3.6202,4.1485 4.1481,3.6205 4.1481,2.9687 C4.1481,2.3169 3.6202,1.7889 2.9683,1.7889 Z" type="custom" id="bLi">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="38.06354330708661" height="38.06338582677165" topLeftX="424.4044094488189" topLeftY="293.5795275590551" type="ellipse" id="bAZ">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="16.517165354330707" height="15.04244094488189" topLeftX="435.1776377952756" topLeftY="303.76267716535426" path="M3.8809,7.098 L3.8809,8.5728 L4.4708,8.5728 L4.4708,7.098 L12.1395,7.098 L12.1395,8.5728 L12.7294,8.5728 L12.7294,7.098 L16.5637,7.098 L16.5637,14.1768 C16.5637,14.6664 16.1685,15.0617 15.6789,15.0617 L0.9314,15.0617 C0.4418,15.0617 0.0466,14.6664 0.0466,14.1768 L0.0466,7.098 L3.8809,7.098 Z M11.5496,0.0192 C12.1808,0.0192 12.6969,0.5147 12.7294,1.14 L12.7294,1.199 L12.7294,3.5586 L15.6789,3.5586 C16.1685,3.5586 16.5637,3.9539 16.5637,4.4435 L16.5637,6.5081 L0.0466,6.5081 L0.0466,4.4435 C0.0466,3.9539 0.4418,3.5586 0.9314,3.5586 L3.8809,3.5586 L3.8809,1.199 C3.8809,0.5678 4.3764,0.0517 5.0017,0.0192 L5.0607,0.0192 L11.5496,0.0192 Z M11.5496,0.6091 L5.0607,0.6091 C4.751,0.6091 4.4944,0.851 4.4738,1.1548 L4.4708,1.199 L4.4708,3.5586 L12.1395,3.5586 L12.1395,1.199 C12.1395,0.9041 11.9213,0.6593 11.6381,0.615 L11.5938,0.6091 L11.5496,0.6091 Z" type="custom" id="bAg">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="38.06354330708661" height="38.06338582677165" topLeftX="470.43425196850393" topLeftY="293.5795275590551" type="ellipse" id="bLe">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="16.517165354330707" height="13.750787401574803" topLeftX="481.2074803149606" topLeftY="306.6363779527559" path="M15.1763,4.2045 C15.9416,4.2045 16.5604,4.8233 16.5604,5.5886 C16.5604,5.6244 16.5604,5.6603 16.5574,5.6962 L16.1389,11.1487 C16.103,11.615 15.7144,11.9767 15.2451,11.9767 L14.2795,11.9767 L14.2795,13.7703 L13.6817,13.7703 L13.6817,11.9767 L2.9202,11.9767 L2.9202,13.7703 L2.3223,13.7703 L2.3223,11.9767 L1.3598,11.9767 C0.8905,11.9767 0.5019,11.615 0.466,11.1487 L0.0475,5.6962 C-0.0123,4.9339 0.5587,4.2673 1.3209,4.2105 C1.3568,4.2075 1.3927,4.2075 1.4285,4.2075 C2.2954,4.2075 3.0398,4.8233 3.1982,5.6752 L3.817,8.9874 L12.7849,8.9874 L13.4067,5.6723 C13.5651,4.8203 14.3094,4.2045 15.1763,4.2045 Z M13.0838,0.0195 C14.2407,0.0195 15.1763,0.9551 15.1763,2.112 L15.1763,3.6216 C15.1016,3.6126 15.0269,3.6067 14.9521,3.6067 C13.9806,3.6067 13.1436,4.2822 12.9314,5.2239 L12.9164,5.2956 L12.3365,8.3895 L4.2654,8.3895 L3.6855,5.2956 C3.5031,4.3151 2.6452,3.6067 1.6497,3.6067 L1.7245,2.112 C1.7245,0.9551 2.6601,0.0195 3.817,0.0195 L13.0838,0.0195 Z" type="custom" id="bLL">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="13.5" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="116.5992125984252" height="36.1496062992126" topLeftX="370.33409448818895" topLeftY="110.40220472440946" type="text" id="bAz">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="18" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">六大功能模块</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="289.5044094488189" height="64.5240157480315" topLeftX="372.49212598425197" topLeftY="157.2835433070866" type="text" id="bAC">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">输入您的文本文字，更改文字的颜色或者大小属性。鼠标优化器：SGD随机梯度下降，初始学习率0.01，动量0.937，权重衰减0.0005。</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="289.5044094488189" height="45.43944881889764" topLeftX="372.49212598425197" topLeftY="229.47464566929133" type="text" id="bLA">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">鼠标优化器：SGD随机梯度下降，初始学习率0.01，动量0.937，权重衰减0.0005。</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <line id="bAR" startX="336.7551968503937" startY="91.86212598425197" endX="337.7551968503937" endY="342.6207086614173" type="line">
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="113.58606299212599" height="237.62330708661418" topLeftX="0.00007874015747688645" topLeftY="167.3766929133858" type="rect" id="bAj">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="219.07007874015747" height="283.3447244094488" topLeftX="58.965433070866126" topLeftY="82.55181102362204" type="rect" id="bLO">
+        <fill>
+          <fillImg src="TL0bbOl3folz6pxdpbhcJpLbnVg" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bLV">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bLE">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">04 系统实现</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bAK">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

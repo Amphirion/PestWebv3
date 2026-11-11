@@ -1,0 +1,172 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plv">
+    <style>
+      <fill id="flv">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="194.70629921259842" height="118.5" topLeftX="472.08086614173226" topLeftY="84" type="rect" id="bEf">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="64.5240157480315" topLeftX="490.8679527559055" topLeftY="130.99763779527558" type="text" id="bEG">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">点击这里，Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="604.0167716535433" topLeftY="96.82055118110236" type="text" id="bES">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">05.</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="489.3207874015748" topLeftY="95.4348031496063" type="text" id="bEX">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="194.70629921259842" height="118.5" topLeftX="472.08086614173226" topLeftY="218.06897637795277" type="rect" id="bEW">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="45.43944881889764" topLeftX="490.8679527559055" topLeftY="270.65291338582676" type="text" id="bER">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="604.0167716535433" topLeftY="228.40685039370078" type="text" id="bEj">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">06.</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="489.3207874015748" topLeftY="227.02102362204724" type="text" id="bEy">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="194.70629921259842" height="118.5" topLeftX="262.6469291338583" topLeftY="84" type="rect" id="bEc">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="64.5240157480315" topLeftX="281.6955905511811" topLeftY="130.99763779527558" type="text" id="bEt">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">点击这里，Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="394.8444094488189" topLeftY="96.82055118110236" type="text" id="bEr">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">03.</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="280.1484251968504" topLeftY="95.4348031496063" type="text" id="bEp">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="194.70629921259842" height="118.5" topLeftX="262.6469291338583" topLeftY="218.06897637795277" type="rect" id="bEz">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="64.5240157480315" topLeftX="281.6955905511811" topLeftY="262.583937007874" type="text" id="bEC">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">点击这里，Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="394.8444094488189" topLeftY="228.40685039370078" type="text" id="bEd">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">04</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="280.1484251968504" topLeftY="227.02102362204724" type="text" id="bEx">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="194.70629921259842" height="118.5" topLeftX="53.212913385826766" topLeftY="84" type="rect" id="bEB">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="45.43944881889764" topLeftX="74.38519685039368" topLeftY="139.06669291338582" type="text" id="bEb">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="187.53409448818897" topLeftY="96.82055118110236" type="text" id="bEl">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">01.</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="72.83811023622047" topLeftY="95.4348031496063" type="text" id="bEZ">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="194.70629921259842" height="118.5" topLeftX="53.212913385826766" topLeftY="218.06897637795277" type="rect" id="bEN">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="157.13204724409448" height="64.5240157480315" topLeftX="74.38519685039368" topLeftY="262.583937007874" type="text" id="bEY">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">点击这里，Intel i5-13500H CPU，16GB内存，辅以AutoDL云端GPU加速训练。</span></p>
+        </content>
+      </shape>
+      <shape width="44.603937007874016" height="32.716377952755906" topLeftX="187.53409448818897" topLeftY="228.40685039370078" type="text" id="bEa">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="21" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">02.</span></p>
+        </content>
+      </shape>
+      <shape width="122.30204724409448" height="31.33299212598425" topLeftX="72.83811023622047" topLeftY="227.02102362204724" type="text" id="bEQ">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="15" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">硬件环境</span></p>
+        </content>
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bEP">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bEK">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">03 实验结果</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bET">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

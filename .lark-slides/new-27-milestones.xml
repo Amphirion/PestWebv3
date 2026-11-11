@@ -1,0 +1,148 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)"/>
+    </fill>
+  </style>
+  <data>
+    <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text">
+      <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+        <p>09 · MILESTONES</p>
+      </content>
+    </shape>
+    <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text">
+      <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p>开发历程：五阶段闭环，从赛题到系统定版</p>
+      </content>
+    </shape>
+    <line startX="80" startY="138" endX="160.00624975587843" endY="138">
+      <border color="rgba(37, 99, 235, 1)" width="3"/>
+    </line>
+    <line startX="96" startY="268" endX="864.0006249997559" endY="268">
+      <border color="rgba(226, 232, 240, 1)" width="2"/>
+    </line>
+    <shape width="24" height="24" topLeftX="86" topLeftY="256" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="24" height="24" topLeftX="246" topLeftY="256" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="24" height="24" topLeftX="406" topLeftY="256" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="24" height="24" topLeftX="566" topLeftY="256" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="24" height="24" topLeftX="726" topLeftY="256" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="140" height="28" topLeftX="30" topLeftY="180" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>01 · 赛题解析</p>
+      </content>
+    </shape>
+    <shape width="150" height="44" topLeftX="25" topLeftY="212" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>研读赛题要求，明确 6 类病害检测与预警目标，梳理技术路线。</p>
+      </content>
+    </shape>
+    <shape width="140" height="28" topLeftX="190" topLeftY="180" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>02 · 数据准备</p>
+      </content>
+    </shape>
+    <shape width="150" height="44" topLeftX="185" topLeftY="212" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>田间采集水稻与玉米图像，LabelImg 标注，构建 YOLO 格式数据集。</p>
+      </content>
+    </shape>
+    <shape width="140" height="28" topLeftX="350" topLeftY="180" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>03 · 训练与开发</p>
+      </content>
+    </shape>
+    <shape width="150" height="44" topLeftX="345" topLeftY="212" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>YOLO11n 迁移学习训练至 mAP50=0.453；同步开发 Flask 平台六大模块。</p>
+      </content>
+    </shape>
+    <shape width="140" height="28" topLeftX="510" topLeftY="180" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>04 · UI 打磨</p>
+      </content>
+    </shape>
+    <shape width="150" height="44" topLeftX="505" topLeftY="212" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>多轮 UI 迭代：统一蓝绿渐变主题、毛玻璃质感、交互动效修复。</p>
+      </content>
+    </shape>
+    <shape width="140" height="28" topLeftX="670" topLeftY="180" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>05 · 文档答辩</p>
+      </content>
+    </shape>
+    <shape width="150" height="44" topLeftX="665" topLeftY="212" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>撰写设计文档与 LaTeX 论文，制作学术答辩 PPT，完成系统定版。</p>
+      </content>
+    </shape>
+    <shape width="150" height="26" topLeftX="30" topLeftY="304" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>阶段产出：技术路线</p>
+      </content>
+    </shape>
+    <shape width="150" height="26" topLeftX="190" topLeftY="304" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>阶段产出：数据集</p>
+      </content>
+    </shape>
+    <shape width="150" height="26" topLeftX="350" topLeftY="304" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>阶段产出：模型与平台</p>
+      </content>
+    </shape>
+    <shape width="150" height="26" topLeftX="510" topLeftY="304" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>阶段产出：定版 UI</p>
+      </content>
+    </shape>
+    <shape width="150" height="26" topLeftX="670" topLeftY="304" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>阶段产出：论文与 PPT</p>
+      </content>
+    </shape>
+    <line startX="80" startY="380" endX="880.0006249997559" endY="380">
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+    </line>
+    <shape width="800" height="60" topLeftX="80" topLeftY="400" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.6">
+        <p><strong><span color="rgba(37, 99, 235, 1)">历程亮点：</span></strong>全程以"小成本、全自建"方式推进——自建数据、CPU 训练、开源框架开发，最终形成模型（best.pt）+ 平台（PestWebv3）+ 文档（设计文档 / 论文 / PPT）三件套交付物。</p>
+      </content>
+    </shape>
+    <shape width="60" height="20" topLeftX="820" topLeftY="505" type="text">
+      <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+        <p>27 / 28</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content>
+      <p>项目开发历程分为五个阶段。第一，研读赛题要求，明确六类病害检测与预警目标，梳理技术路线。第二，田间采集水稻与玉米图像，使用LabelImg标注，构建YOLO格式数据集。第三，YOLO11n迁移学习训练至mAP50达到0.453，同步开发Flask平台的六大功能模块。第四，多轮UI迭代，统一蓝绿渐变主题、毛玻璃质感和交互动效。第五，撰写设计文档与LaTeX论文，制作学术答辩PPT，完成系统定版。项目全程以自建数据、CPU训练、开源框架开发，最终形成模型、平台、文档三件套交付物。</p>
+    </content>
+  </note>
+</slide>

@@ -1,0 +1,13 @@
+# ============================================================
+# 大田病虫害智能检测系统 —— Python 依赖清单
+# 在 Anaconda 的 yolo11 环境中安装：
+#   pip install -r requirements.txt
+# ============================================================
+
+flask>=3.0          # Web 后端框架
+ultralytics>=8.3    # YOLO 模型推理（会自动安装 torch / torchvision）
+pillow>=10.0        # 图像处理与中文标注绘制
+numpy>=1.24         # 数值计算（ultralytics 依赖）
+
+# ---- 可选：视频检测（上传 MP4/AVI 等视频时使用）----
+opencv-python>=4.8

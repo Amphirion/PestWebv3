@@ -1,0 +1,472 @@
+{
+  "schema_version": "1.0",
+  "source_file": ".lark-slides\\template\\pest-defense\\source.xml",
+  "mode": "summary",
+  "selection": {
+    "slide_numbers": [],
+    "slide_ids": [],
+    "block_ids": [],
+    "raw_xml": false,
+    "output_slide_count": 24
+  },
+  "presentation": {
+    "root": "presentation",
+    "namespace": "https://www.larkoffice.com/sml/2.0",
+    "presentation_id": "Ji6js8Y4blz0sBdpzxgcs1janbf",
+    "revision_id": null,
+    "title": "大田病虫害智能检测系统_答辩PPT",
+    "width": "720",
+    "height": "405",
+    "slide_count": 24,
+    "slide_ids": [
+      "plu",
+      "plV",
+      "plo",
+      "pln",
+      "plL",
+      "plF",
+      "plJ",
+      "ple",
+      "plz",
+      "plN",
+      "plP",
+      "plH",
+      "pls",
+      "pll",
+      "plv",
+      "plf",
+      "plw",
+      "plE",
+      "plM",
+      "plS",
+      "plR",
+      "plq",
+      "plr",
+      "plD"
+    ]
+  },
+  "summary": {
+    "blocks": 361,
+    "text_blocks": 206,
+    "images": 7,
+    "shapes": 331,
+    "tables": 0,
+    "charts": 0,
+    "icons": 0,
+    "lines": 23,
+    "undefined": 0,
+    "media_usage": null,
+    "warnings": []
+  },
+  "slides": [
+    {
+      "index": 1,
+      "slide_id": "plu",
+      "counts": {
+        "blocks": 15,
+        "text_blocks": 7,
+        "images": 1,
+        "shapes": 14,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "20XX | 农业项目计划 | REPORT OF POSTOPERATIVE NURSING PLAN | 主讲：第一PPT | 时间：XXX | POSTOPERATIVE CARE | Click here to enter your text and change the color or size of the text. Insert the data text icon,",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 2,
+      "slide_id": "plV",
+      "counts": {
+        "blocks": 8,
+        "text_blocks": 7,
+        "images": 1,
+        "shapes": 7,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "目录： | POSTOPERATIVE CARE | 01.农业项目 | 03.项目发展 | 02.项目优势 | 04.项目规划 | 行业PPT模板http://www.1ppt.com/hangye/",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 3,
+      "slide_id": "plo",
+      "counts": {
+        "blocks": 8,
+        "text_blocks": 5,
+        "images": 1,
+        "shapes": 6,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "01. | 农业项目 | Part | Click here to enter your text and change the color or size of the text. Insert the data text icon, change the picture, and have a good | REPORT OF POSTOPERATIVE NURSING PLAN",
+      "note_preview": "模板来自于：第一PPT https://www.1ppt.com/"
+    },
+    {
+      "index": 4,
+      "slide_id": "pln",
+      "counts": {
+        "blocks": 17,
+        "text_blocks": 11,
+        "images": 0,
+        "shapes": 14,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 3,
+        "undefined": 0
+      },
+      "text_preview": "鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。还可以设置合适的文字格式，调整文字文本的行间距。 | 1 | 2 | 3 | 效果会更好。图标以及图片均可根据您的个人需要来进行一键替换。 | 数据图表均可进行替换和编辑，根据需要进行设置；祝你使用开心。 | 均可进行替换和编辑，根据需要进行设置；祝你使用开心。 | 添加标题 | 添加标题 | 添加标题 | 01 农业项目",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 5,
+      "slide_id": "plL",
+      "counts": {
+        "blocks": 26,
+        "text_blocks": 11,
+        "images": 0,
+        "shapes": 25,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 还可以设置合适的文字格式，调整文字文本的行间距。 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。还可以设置合适的文字格式，调整文字文本的行间距。 | 01 农业项目",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 6,
+      "slide_id": "plF",
+      "counts": {
+        "blocks": 15,
+        "text_blocks": 7,
+        "images": 0,
+        "shapes": 14,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "效果会更好。图标以及图片均可根据您的个人需要来进行一键替换。 | 添加标题 | 均可进行替换和编辑，根据需要进行设置；祝你使用开心。 | 添加标题 | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 01 农业项目",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 7,
+      "slide_id": "plJ",
+      "counts": {
+        "blocks": 17,
+        "text_blocks": 9,
+        "images": 0,
+        "shapes": 16,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 添加标题 | 01 农业项目",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 8,
+      "slide_id": "ple",
+      "counts": {
+        "blocks": 15,
+        "text_blocks": 8,
+        "images": 0,
+        "shapes": 12,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 3,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 01. | 点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 02. | 更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 03. | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 01 农业项目",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 9,
+      "slide_id": "plz",
+      "counts": {
+        "blocks": 8,
+        "text_blocks": 5,
+        "images": 1,
+        "shapes": 6,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "02. | 项目优势 | Part | Click here to enter your text and change the color or size of the text. Insert the data text icon, change the picture, and have a good | REPORT OF POSTOPERATIVE NURSING PLAN",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 10,
+      "slide_id": "plN",
+      "counts": {
+        "blocks": 17,
+        "text_blocks": 11,
+        "images": 0,
+        "shapes": 16,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 均可根据您的个人需要来进行一键替换。 | 添加标题 | 均可根据您的个人需要来进行一键替换。 | 添加标题 | 均可根据您的个人需要来进行一键替换。 | 添加标题 | 均可根据您的个人需要来进行一键替换。 | 添加标题 | 02 项目优势",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 11,
+      "slide_id": "plP",
+      "counts": {
+        "blocks": 26,
+        "text_blocks": 13,
+        "images": 0,
+        "shapes": 26,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。还可以设置合适的文字格式，调整文字文本的行间距。 | 120% | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。还可以设置合适的文字格式，调整文字文本的行间距。 | 23% | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。还可以设置合适的文字格式，调整文字文本的行间距。 | 54% | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。还可以设置…",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 12,
+      "slide_id": "plH",
+      "counts": {
+        "blocks": 10,
+        "text_blocks": 7,
+        "images": 0,
+        "shapes": 10,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "01 | 02 | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 添加标题 | 02 项目优势",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 13,
+      "slide_id": "pls",
+      "counts": {
+        "blocks": 13,
+        "text_blocks": 7,
+        "images": 0,
+        "shapes": 12,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 1 | 2 | 3 | 02 项目优势",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 14,
+      "slide_id": "pll",
+      "counts": {
+        "blocks": 8,
+        "text_blocks": 5,
+        "images": 1,
+        "shapes": 6,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "03. | 项目发展 | Part | Click here to enter your text and change the color or size of the text. Insert the data text icon, change the picture, and have a good | REPORT OF POSTOPERATIVE NURSING PLAN",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 15,
+      "slide_id": "plv",
+      "counts": {
+        "blocks": 26,
+        "text_blocks": 19,
+        "images": 0,
+        "shapes": 26,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 05. | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 06. | 添加标题 | 点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 03. | 添加标题 | 点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 04 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 01. | 添加标题 | 点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 |…",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 16,
+      "slide_id": "plf",
+      "counts": {
+        "blocks": 14,
+        "text_blocks": 9,
+        "images": 0,
+        "shapes": 13,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 添加标题 | 12 | 45 | 添加标题 | 65 | 03 项目发展",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 17,
+      "slide_id": "plw",
+      "counts": {
+        "blocks": 16,
+        "text_blocks": 7,
+        "images": 0,
+        "shapes": 15,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "6 ,864 | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 添加标题 | 03 项目发展",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 18,
+      "slide_id": "plE",
+      "counts": {
+        "blocks": 19,
+        "text_blocks": 13,
+        "images": 0,
+        "shapes": 19,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 添加标题 | 添加标题 | 添加标题 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 23 | 45 | 78 | 1230/人 | 03 项目发展",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 19,
+      "slide_id": "plM",
+      "counts": {
+        "blocks": 8,
+        "text_blocks": 5,
+        "images": 1,
+        "shapes": 6,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "04. | 项目规划 | Part | Click here to enter your text and change the color or size of the text. Insert the data text icon, change the picture, and have a good | REPORT OF POSTOPERATIVE NURSING PLAN",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 20,
+      "slide_id": "plS",
+      "counts": {
+        "blocks": 14,
+        "text_blocks": 4,
+        "images": 0,
+        "shapes": 13,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 04 项目规划",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 21,
+      "slide_id": "plR",
+      "counts": {
+        "blocks": 15,
+        "text_blocks": 9,
+        "images": 0,
+        "shapes": 14,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 04 项目规划",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 22,
+      "slide_id": "plq",
+      "counts": {
+        "blocks": 12,
+        "text_blocks": 7,
+        "images": 0,
+        "shapes": 11,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 1,
+        "undefined": 0
+      },
+      "text_preview": "5, 250 | 3 ,594 | 8 ,496 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 鼠标点击这里，输入您的文本文字，更改文字的颜色或者大小属性。 | 04 项目规划",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 23,
+      "slide_id": "plr",
+      "counts": {
+        "blocks": 19,
+        "text_blocks": 13,
+        "images": 0,
+        "shapes": 16,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 3,
+        "undefined": 0
+      },
+      "text_preview": "3 7% | 5 2% | 4 3% | 6 0% | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 添加标题 | 输入您的文本文字，更改文字的颜色或者大小属性。 | 04 项目规划",
+      "note_preview": "Click to add text"
+    },
+    {
+      "index": 24,
+      "slide_id": "plD",
+      "counts": {
+        "blocks": 15,
+        "text_blocks": 7,
+        "images": 1,
+        "shapes": 14,
+        "tables": 0,
+        "charts": 0,
+        "icons": 0,
+        "lines": 0,
+        "undefined": 0
+      },
+      "text_preview": "20XX | 农业项目计划 | REPORT OF POSTOPERATIVE NURSING PLAN | 主讲：第一PPT | 时间：XXX | POSTOPERATIVE CARE | Click here to enter your text and change the color or size of the text. Insert the data text icon,",
+      "note_preview": "Click to add text"
+    }
+  ],
+  "selected_blocks": []
+}

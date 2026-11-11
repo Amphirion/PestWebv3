@@ -1,0 +1,102 @@
+/* ============================================================ */
+/* 3D 封面流轮播（农业知识库）                                   */
+/* 参考：Carousel.css 资源（适配玻璃主题）                       */
+/* ============================================================ */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 24px;
+  padding: 18px;
+  background: rgba(255,255,255,.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  margin: 0 auto;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(30,52,66,.92), rgba(14,28,38,.96));
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  cursor: grab;
+  box-shadow: 0 20px 44px rgba(2,8,15,.5);
+  padding: 22px;
+  transition: box-shadow .3s var(--e-soft);
+}
+.carousel-item:hover { box-shadow: 0 26px 56px rgba(2,8,15,.6); }
+.carousel-item:active { cursor: grabbing; }
+
+.carousel-item-header {
+  margin-bottom: 16px;
+}
+.carousel-icon-container {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(74,222,128,.85), rgba(56,189,248,.85));
+  box-shadow: 0 8px 20px rgba(16,185,129,.4);
+}
+.carousel-icon { width: 24px; height: 24px; color: #06251d; }
+
+.carousel-item-content { padding: 4px 0; }
+.carousel-item-title {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 19px;
+  color: #fff;
+  letter-spacing: .5px;
+}
+.carousel-item-description {
+  font-size: 13px;
+  color: rgba(255,255,255,.72);
+  line-height: 1.7;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.carousel-item-foot {
+  margin-top: 14px; display: flex; align-items: center; gap: 8px;
+}
+
+.carousel-indicators-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.carousel-indicators {
+  margin-top: 16px;
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.carousel-indicator {
+  height: 8px;
+  width: 8px;
+  border: none;
+  padding: 0;
+  appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 150ms, transform 150ms;
+}
+.carousel-indicator.active { background-color: #fff; transform: scale(1.25); }
+.carousel-indicator.inactive { background-color: rgba(255,255,255,.35); }
+.carousel-indicator:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }

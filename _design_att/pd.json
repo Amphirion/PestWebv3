@@ -1,0 +1,1 @@
+{"audience":"项目团队成员/开发者/后续维护者","reader_task":"理解网站设计系统与美学依据，作为后续开发与迭代的设计基线","genre_contract":"strategy-and-analysis","adapter":null,"presentation_mode":"rich","visual_plan":{"reason":"策略与分析｜蓝绿主色体系｜陈述网站设计系统与美学意义；以代码中的真实设计令牌（颜色/字体/布局/玻璃参数）为证据；表格呈现色彩与排版令牌，HTML5 图表呈现主题色体系与页面布局结构。","blocks":[{"type":"html5-block","min_count":2,"purpose":"展示主题蓝绿色彩体系色板与页面布局（侧栏/顶栏/内容/背景）结构"}]}}

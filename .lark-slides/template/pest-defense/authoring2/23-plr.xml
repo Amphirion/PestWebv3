@@ -1,0 +1,135 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plr">
+    <style>
+      <fill id="flr">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="720" height="94.34480314960629" topLeftX="0" topLeftY="92.93889763779528" type="rect" id="biO">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="63.89299212598425" height="36.3515748031496" topLeftX="382.02283464566926" topLeftY="219.88236220472442" type="text" id="biE">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">3</span><span color="rgba(0, 128, 0, 1)" fontSize="1" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false"> </span><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">7%</span></p>
+        </content>
+      </shape>
+      <line id="bLQ" startX="520.1923622047244" startY="222.08803149606297" endX="521.1923622047244" endY="345.4630708661417" type="line">
+        <border color="rgba(191, 191, 191, 1)" width="1" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="64.14543307086615" height="36.3515748031496" topLeftX="539.1118897637796" topLeftY="219.88236220472442" type="text" id="bLP">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">5</span><span color="rgba(0, 128, 0, 1)" fontSize="1" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false"> </span><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">2%</span></p>
+        </content>
+      </shape>
+      <shape width="64.14543307086615" height="36.3515748031496" topLeftX="224.93393700787402" topLeftY="219.88236220472442" type="text" id="bLR">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">4</span><span color="rgba(0, 128, 0, 1)" fontSize="1" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false"> </span><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">3%</span></p>
+        </content>
+      </shape>
+      <line id="bLj" startX="363.10338582677167" startY="222.08803149606297" endX="364.10338582677167" endY="345.4630708661417" type="line">
+        <border color="rgba(191, 191, 191, 1)" width="1" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="64.14543307086615" height="36.3515748031496" topLeftX="67.84496062992126" topLeftY="219.88236220472442" type="text" id="biV">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">6</span><span color="rgba(0, 128, 0, 1)" fontSize="1" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false"> </span><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">0%</span></p>
+        </content>
+      </shape>
+      <line id="bLX" startX="206.0144094488189" startY="222.08803149606297" endX="207.0144094488189" endY="345.4630708661417" type="line">
+        <border color="rgba(191, 191, 191, 1)" width="1" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="88.31905511811024" height="26.521496062992124" topLeftX="69.10818897637795" topLeftY="254.72866141732283" type="text" id="bLW">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">创新点一</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="93.13866141732284" height="83.60850393700787" topLeftX="86.24070866141733" topLeftY="281.9381102362205" type="text" id="bLz">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测+环境复合决策规则引擎，高湿风险放大机制，区别于通用检测系统。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31905511811024" height="26.521496062992124" topLeftX="226.7633858267717" topLeftY="254.72866141732283" type="text" id="bLC">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">创新点一</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="93.13866141732284" height="83.60850393700787" topLeftX="243.895905511811" topLeftY="281.9381102362205" type="text" id="bie">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测+环境复合决策规则引擎，高湿风险放大机制，区别于通用检测系统。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31905511811024" height="26.521496062992124" topLeftX="383.79787401574805" topLeftY="254.72866141732283" type="text" id="bLr">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">创新点一</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="93.13866141732284" height="83.60850393700787" topLeftX="400.9303937007874" topLeftY="281.9381102362205" type="text" id="bLp">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测+环境复合决策规则引擎，高湿风险放大机制，区别于通用检测系统。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31905511811024" height="26.521496062992124" topLeftX="541.4530708661417" topLeftY="254.72866141732283" type="text" id="bLZ">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">创新点一</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="93.13866141732284" height="83.60850393700787" topLeftX="558.5855905511811" topLeftY="281.9381102362205" type="text" id="bLg">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测+环境复合决策规则引擎，高湿风险放大机制，区别于通用检测系统。</span></p>
+        </content>
+      </shape>
+      <shape width="515.0218897637795" height="134.50740157480314" topLeftX="105.5924409448819" topLeftY="74.69653543307088" type="rect" id="bih">
+        <fill>
+          <fillImg src="CVo9bsVNNoW9YzxsLO5cikfAnCc" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bLb">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bLl">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">04 系统实现</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bLK">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

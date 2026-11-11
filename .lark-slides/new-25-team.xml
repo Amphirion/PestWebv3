@@ -1,0 +1,186 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)"/>
+    </fill>
+  </style>
+  <data>
+    <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text">
+      <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+        <p>08 · TEAM</p>
+      </content>
+    </shape>
+    <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text">
+      <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p>团队成员：3 人协同，四条工作线全覆盖</p>
+      </content>
+    </shape>
+    <line startX="80" startY="138" endX="160.00624975587843" endY="138">
+      <border color="rgba(37, 99, 235, 1)" width="3"/>
+    </line>
+    <shape width="280" height="212" topLeftX="80" topLeftY="168" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.05)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="96" height="96" topLeftX="172" topLeftY="186" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <border color="rgba(255, 255, 255, 1)" width="3"/>
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" textAlign="center">
+        <p>李泽鑫</p>
+      </content>
+    </shape>
+    <shape width="260" height="26" topLeftX="90" topLeftY="298" type="text">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>李泽鑫</p>
+      </content>
+    </shape>
+    <shape width="260" height="40" topLeftX="90" topLeftY="328" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>负责方向：待补充<br/>（答辩人 01）</p>
+      </content>
+    </shape>
+    <shape width="280" height="212" topLeftX="380" topLeftY="168" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.05)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="96" height="96" topLeftX="472" topLeftY="186" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <border color="rgba(255, 255, 255, 1)" width="3"/>
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" textAlign="center">
+        <p>盛康</p>
+      </content>
+    </shape>
+    <shape width="260" height="26" topLeftX="390" topLeftY="298" type="text">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>盛康</p>
+      </content>
+    </shape>
+    <shape width="260" height="40" topLeftX="390" topLeftY="328" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>负责方向：待补充<br/>（答辩人 02）</p>
+      </content>
+    </shape>
+    <shape width="280" height="212" topLeftX="680" topLeftY="168" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.05)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="96" height="96" topLeftX="772" topLeftY="186" type="ellipse">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 1)"/>
+      </fill>
+      <border color="rgba(255, 255, 255, 1)" width="3"/>
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" textAlign="center">
+        <p>郑俊林</p>
+      </content>
+    </shape>
+    <shape width="260" height="26" topLeftX="690" topLeftY="298" type="text">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+        <p>郑俊林</p>
+      </content>
+    </shape>
+    <shape width="260" height="40" topLeftX="690" topLeftY="328" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.5" textAlign="center">
+        <p>负责方向：待补充<br/>（答辩人 03）</p>
+      </content>
+    </shape>
+    <line startX="80" startY="398" endX="880.0006249997559" endY="398">
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+    </line>
+    <shape width="800" height="20" topLeftX="80" topLeftY="412" type="text">
+      <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p>团队协作的四条工作线</p>
+      </content>
+    </shape>
+    <shape width="190" height="62" topLeftX="80" topLeftY="444" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.06)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="170" height="22" topLeftX="90" topLeftY="450" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>数据采集与标注</p>
+      </content>
+    </shape>
+    <shape width="170" height="26" topLeftX="90" topLeftY="476" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" textAlign="center">
+        <p>6 类病害 · LabelImg · YOLO 格式</p>
+      </content>
+    </shape>
+    <shape width="190" height="62" topLeftX="290" topLeftY="444" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.06)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="170" height="22" topLeftX="300" topLeftY="450" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>模型训练与调优</p>
+      </content>
+    </shape>
+    <shape width="170" height="26" topLeftX="300" topLeftY="476" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" textAlign="center">
+        <p>YOLO11n · 迁移学习 · 100 epochs</p>
+      </content>
+    </shape>
+    <shape width="190" height="62" topLeftX="500" topLeftY="444" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.06)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="170" height="22" topLeftX="510" topLeftY="450" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>平台开发与部署</p>
+      </content>
+    </shape>
+    <shape width="170" height="26" topLeftX="510" topLeftY="476" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" textAlign="center">
+        <p>Flask · 六大模块 · RK3588</p>
+      </content>
+    </shape>
+    <shape width="190" height="62" topLeftX="710" topLeftY="444" presetHandlers="0" type="rect">
+      <fill>
+        <fillColor color="rgba(37, 99, 235, 0.06)"/>
+      </fill>
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+      <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+    </shape>
+    <shape width="170" height="22" topLeftX="720" topLeftY="450" type="text">
+      <content fontSize="13" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+        <p>论文与答辩材料</p>
+      </content>
+    </shape>
+    <shape width="170" height="26" topLeftX="720" topLeftY="476" type="text">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" textAlign="center">
+        <p>设计文档 · 论文 · PPT</p>
+      </content>
+    </shape>
+    <shape width="60" height="20" topLeftX="820" topLeftY="512" type="text">
+      <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+        <p>25 / 28</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content>
+      <p>团队由三位成员组成。团队协作围绕四条工作线展开：数据采集与标注、模型训练与调优、平台开发与部署、论文与答辩材料。三条主线并行推进、交叉评审，确保从数据到交付的完整闭环。具体每位成员的负责方向以现场答辩介绍为准。</p>
+    </content>
+  </note>
+</slide>

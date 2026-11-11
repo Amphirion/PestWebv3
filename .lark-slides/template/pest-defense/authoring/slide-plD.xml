@@ -1,0 +1,110 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plD">
+    <style>
+      <fill id="flD">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <img id="biJ" src="V3CnbbPFmo5ooCxaxXOcoWXcnCh" width="720" height="405" topLeftX="0.00007874015750530816" topLeftY="0">
+        <crop leftOffset="0" rightOffset="0" topOffset="0" bottomOffset="0" />
+      </img>
+      <shape width="309.75" height="120.07795275590551" topLeftX="325.5" topLeftY="74.96102362204724" presetHandlers="53934" type="parallelogram" id="biI">
+        <fill>
+          <fillColor color="linear-gradient(180deg,rgba(255, 250, 252, 1) 0%,rgba(0, 176, 80, 1) 100%)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="591.75" height="179.25" topLeftX="-105" topLeftY="123.37503937007875" presetHandlers="53934" type="parallelogram" id="biw">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 0.86)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="126" height="47.25700787401575" topLeftX="486.75" topLeftY="81.2007874015748" type="text" id="biL">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(38, 38, 38, 1)" fontSize="33" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">Q&A</span></p>
+        </content>
+      </shape>
+      <shape width="446.08181102362204" height="79.97346456692914" topLeftX="-30.75" topLeftY="149.59622047244093" type="text" id="biM">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="right" autoFit="shape-auto-fit">
+          <p textAlign="right" lineSpacing="multiple:1.2"><strong><span color="rgba(38, 38, 38, 1)" fontSize="60" fontFamily="思源宋体 CN Heavy" italic="false" strikethrough="false" underline="false">感谢聆听</span></strong></p>
+        </content>
+      </shape>
+      <shape width="413.9355118110236" height="21.810944881889764" topLeftX="-5.184015748031499" topLeftY="227.25" type="text" id="bio">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="right" autoFit="shape-auto-fit">
+          <p textAlign="right" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(38, 38, 38, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">THANK YOU FOR YOUR ATTENTION</span></p>
+        </content>
+      </shape>
+      <shape width="117.94889763779527" height="24.234409448818898" topLeftX="468.61700787401577" topLeftY="227.0828346456693" type="text" id="biu">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(255, 255, 255, 1)" fontSize="14" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">答辩人：[团队名称]</span></strong></p>
+        </content>
+      </shape>
+      <shape width="97.80913385826771" height="24.234409448818898" topLeftX="470.9563779527559" topLeftY="259.4915748031496" type="text" id="biA">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(255, 255, 255, 1)" fontSize="14" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">2026年9月</span></strong></p>
+        </content>
+      </shape>
+      <shape width="29.7" height="10.093149606299212" topLeftX="690.3000787401575" topLeftY="19.27" type="rect" id="bim">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="213.29543307086615" height="21.810944881889764" topLeftX="475.50007874015756" topLeftY="14.319921259842518" type="text" id="bik">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="dist" autoFit="shape-auto-fit">
+          <p textAlign="dist" lineSpacing="multiple:1.2" letterSpacing="2.25"><strong><span color="rgba(255, 255, 255, 1)" fontSize="12" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">SMART AGRICULTURE</span></strong></p>
+        </content>
+      </shape>
+      <shape width="27.083779527559056" height="27.083779527559056" topLeftX="446.08188976377954" topLeftY="225.01346456692914" type="ellipse" id="bis">
+        <fill>
+          <fillColor color="linear-gradient(180deg,rgba(179, 255, 179, 1) 0%,rgba(0, 176, 80, 1) 100%)" />
+        </fill>
+        <border color="rgba(255, 255, 255, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="17.986614173228347" height="16.073149606299214" topLeftX="450.63047244094486" topLeftY="230.51874015748032" path="M5.139,9.9328 L5.139,9.9328 C5.139,4.5149 5.139,4.5149 5.139,4.5149 C1.9181,4.5149 1.9181,4.5149 1.9181,4.5149 C0.6514,4.5149 0,5.454 0,6.4293 C0,11.5221 0,11.5221 0,11.5221 C0,12.7863 0.6514,13.4726 1.9181,13.4726 C2.5695,13.4726 2.5695,13.4726 2.5695,13.4726 C2.5695,16.037 2.5695,16.037 2.5695,16.037 C5.4647,13.4726 5.4647,13.4726 5.4647,13.4726 C9.9162,13.4726 9.9162,13.4726 9.9162,13.4726 C10.9295,13.4726 11.5447,12.7863 11.5447,11.5221 C11.5447,9.9328 11.5447,9.9328 11.5447,9.9328 L5.139,9.9328 Z M16.0323,0 L16.0323,0 C7.9981,0 7.9981,0 7.9981,0 C7.0571,0 6.4057,0.9752 6.4057,1.9504 C6.4057,8.9576 6.4057,8.9576 6.4057,8.9576 C12.5219,8.9576 12.5219,8.9576 12.5219,8.9576 C15.3809,11.5221 15.3809,11.5221 15.3809,11.5221 C15.3809,8.9576 15.3809,8.9576 15.3809,8.9576 C16.0323,8.9576 16.0323,8.9576 16.0323,8.9576 C17.0095,8.9576 17.9504,8.3436 17.9504,7.0433 C17.9504,1.9504 17.9504,1.9504 17.9504,1.9504 C17.9504,0.9752 17.0095,0 16.0323,0 Z" type="custom" id="biU">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="27.083779527559056" height="27.083779527559056" topLeftX="446.7111811023622" topLeftY="257.4222047244094" type="ellipse" id="biD">
+        <fill>
+          <fillColor color="linear-gradient(180deg,rgba(179, 255, 179, 1) 0%,rgba(0, 176, 80, 1) 100%)" />
+        </fill>
+        <border color="rgba(255, 255, 255, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="16.711023622047243" height="14.79755905511811" topLeftX="451.8975590551181" topLeftY="263.56535433070866" path="M16.3485,7.7063 L16.3485,7.7063 C8.9536,0.6151 8.9536,0.6151 8.9536,0.6151 C8.6274,0 8.0111,0 7.6849,0.6151 C0.3262,7.7063 0.3262,7.7063 0.3262,7.7063 C0,7.9957 0.3262,8.3214 0.6525,8.3214 C2.2475,8.3214 2.2475,8.3214 2.2475,8.3214 C2.2475,14.1101 2.2475,14.1101 2.2475,14.1101 C2.2475,14.4358 2.2475,14.7614 2.8637,14.7614 C6.4162,14.7614 6.4162,14.7614 6.4162,14.7614 C6.4162,8.9726 6.4162,8.9726 6.4162,8.9726 C10.2586,8.9726 10.2586,8.9726 10.2586,8.9726 C10.2586,14.7614 10.2586,14.7614 10.2586,14.7614 C13.8111,14.7614 13.8111,14.7614 13.8111,14.7614 C14.4273,14.7614 14.4273,14.4358 14.4273,14.1101 C14.4273,8.3214 14.4273,8.3214 14.4273,8.3214 C16.0585,8.3214 16.0585,8.3214 16.0585,8.3214 C16.3485,8.3214 16.6748,7.9957 16.3485,7.7063" type="custom" id="biv">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="1.35" paddingBottom="1.35" paddingLeft="2.7" paddingRight="2.7" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" wrap="false">
+          <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="18" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="254.99622047244094" height="38.068188976377954" topLeftX="146.89779527559054" topLeftY="248.59433070866143" type="rect" id="biH">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="right" autoFit="shape-auto-fit">
+          <p textAlign="right" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="9" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">基于图像识别的大田农作物病虫害智能检测与预警系统，欢迎各位评委老师提问与交流。 </span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bii">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>

@@ -1,0 +1,2901 @@
+<presentation id="WmTfsHGcxlDIuydjTC0cfkzinlg" xmlns="https://www.larkoffice.com/sml/2.0" width="960" height="540">
+  <title>基于图像识别的大田农作物病虫害智能检测与预警系统 — 学术答辩</title>
+  <theme>
+    <textStyles>
+      <headline fontColor="rgba(31, 35, 41, 1)"/>
+      <sub-headline fontColor="rgba(31, 35, 41, 1)"/>
+      <body fontColor="rgba(31, 35, 41, 1)"/>
+      <caption fontColor="rgba(155, 158, 162, 1)" fontSize="14"/>
+    </textStyles>
+  </theme>
+  <slide id="pSS">
+    <style>
+      <fill id="fSS">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="56" height="4" topLeftX="80" topLeftY="130" presetHandlers="0" type="rect" id="bhJ">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="600" height="28" topLeftX="80" topLeftY="148" type="text" id="bhg">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="2">
+          <p>JBGS-2026-09 · 2026</p>
+        </content>
+      </shape>
+      <shape width="820" height="130" topLeftX="80" topLeftY="190" type="text" id="bhp">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" lineSpacing="multiple:1.35">
+          <p>基于图像识别的大田农作物</p>
+          <p>病虫害智能检测与预警系统</p>
+        </content>
+      </shape>
+      <shape width="760" height="40" topLeftX="80" topLeftY="335" type="text" id="bhz">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)">
+          <p>YOLO11n 轻量级目标检测 · 迁移学习 · 多源融合规则引擎 · Flask Web 交互平台</p>
+        </content>
+      </shape>
+      <line id="bhI" startX="80" startY="410" endX="880.0006249997559" endY="410">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="360" height="60" topLeftX="80" topLeftY="430" type="text" id="bhM">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.7">
+          <p>答辩人：李泽鑫 盛康 郑俊林</p>
+          <p>指导教师：</p>
+        </content>
+      </shape>
+      <shape width="320" height="60" topLeftX="560" topLeftY="430" type="text" id="bhO">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.7" textAlign="right">
+          <p/>
+          <p>2026 年 8 月</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bho">
+      <content>
+        <p>各位老师好，我汇报的题目是基于图像识别的大田农作物病虫害智能检测与预警系统。本系统针对传统植保监测覆盖不足、识别准确率低、预警响应滞后三大痛点，采用YOLO11n轻量级模型结合迁移学习，构建了从感知、研判、预警到防控的完整业务闭环。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSz">
+    <style>
+      <fill id="fSz">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="24" topLeftX="80" topLeftY="56" type="text" id="bAh">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>CONTENTS</p>
+        </content>
+      </shape>
+      <shape width="600" height="44" topLeftX="80" topLeftY="82" type="text" id="bAe">
+        <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>汇报目录</p>
+        </content>
+      </shape>
+      <line id="bAk" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="380" height="50" topLeftX="80" topLeftY="170" type="text" id="bAZ">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">01</span>　研究背景与目标</p>
+        </content>
+      </shape>
+      <shape width="380" height="50" topLeftX="80" topLeftY="220" type="text" id="bAf">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">02</span>　系统总体设计</p>
+        </content>
+      </shape>
+      <shape width="380" height="50" topLeftX="80" topLeftY="270" type="text" id="bAu">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">03</span>　核心算法与模型训练</p>
+        </content>
+      </shape>
+      <shape width="380" height="50" topLeftX="500" topLeftY="170" type="text" id="bhR">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">04</span>　实验结果与分析</p>
+        </content>
+      </shape>
+      <shape width="380" height="50" topLeftX="500" topLeftY="220" type="text" id="bhT">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">05</span>　Web 平台与边缘部署</p>
+        </content>
+      </shape>
+      <shape width="380" height="50" topLeftX="500" topLeftY="270" type="text" id="bAA">
+        <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p><span color="rgba(37, 99, 235, 1)">06</span>　创新、不足与展望</p>
+        </content>
+      </shape>
+      <line id="bAN" startX="80" startY="370" endX="880.0006249997559" endY="370">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="80" topLeftX="80" topLeftY="395" type="text" id="bAD">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.7">
+          <p>本汇报围绕&quot;感知—研判—预警—防控&quot;业务闭环展开，依次阐述研究动机、系统架构、核心算法、实验验证、平台实现与未来方向。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bAr">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>02 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bhB">
+      <content>
+        <p>本次汇报分为六个部分。首先介绍研究背景与目标，其次阐述系统总体设计，然后重点讲解核心算法与模型训练过程，接着展示实验结果与分析，再介绍Web交互平台与边缘部署方案，最后总结创新点、存在不足与未来展望。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSV">
+    <style>
+      <fill id="fSV">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bht">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>01 · RESEARCH BACKGROUND</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bhP">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>传统植保模式面临三大核心痛点</p>
+        </content>
+      </shape>
+      <line id="bhw" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="800" height="30" topLeftX="80" topLeftY="158" type="text" id="bhy">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)">
+          <p>每年因病虫害造成的粮食损失约占粮食总产量的 10%–15%</p>
+        </content>
+      </shape>
+      <line id="bhC" startX="80" startY="210" endX="880.0006249997559" endY="210">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="240" height="40" topLeftX="80" topLeftY="230" type="text" id="bhc">
+        <content textType="title" fontSize="40" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="240" height="30" topLeftX="80" topLeftY="280" type="text" id="bhv">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>监测覆盖面不足</p>
+        </content>
+      </shape>
+      <shape width="240" height="100" topLeftX="80" topLeftY="315" type="text" id="bhS">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>大田面积广、点位分散，人工巡查频次与覆盖范围有限，难以实现连续、全域、实时的田间状态感知，病虫害爆发初期无法及时发现。</p>
+        </content>
+      </shape>
+      <line id="bhV" startX="350" startY="230" endX="350" endY="420.00263156072333">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="240" height="40" topLeftX="380" topLeftY="230" type="text" id="bhX">
+        <content textType="title" fontSize="40" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="240" height="30" topLeftX="380" topLeftY="280" type="text" id="bhF">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>识别准确率低</p>
+        </content>
+      </shape>
+      <shape width="240" height="100" topLeftX="380" topLeftY="315" type="text" id="bhd">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>早期病斑与虫体特征细微，识别高度依赖植保人员经验，主观差异明显，易出现漏检、误检与类别误判，错失最佳防治时机。</p>
+        </content>
+      </shape>
+      <line id="bhl" startX="650" startY="230" endX="650" endY="420.00263156072333">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="220" height="40" topLeftX="680" topLeftY="230" type="text" id="bhx">
+        <content textType="title" fontSize="40" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="220" height="30" topLeftX="680" topLeftY="280" type="text" id="bhK">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>预警响应滞后</p>
+        </content>
+      </shape>
+      <shape width="220" height="100" topLeftX="680" topLeftY="315" type="text" id="bhm">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>图像、气象、虫情等数据分散割裂，风险研判依赖事后汇总，信息传递链条长、时效差，容易错过最佳防控处置窗口。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bhE">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>03 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bhn">
+      <content>
+        <p>传统农业植保面临三大核心痛点。第一，田间监测覆盖面不足，大田面积广、人工巡查有限。第二，病虫害识别准确率低，早期病斑特征细微，高度依赖经验。第三，灾害预警响应滞后，数据分散割裂、研判依赖事后汇总。据统计，每年因病虫害造成的粮食损失约占总产量的10%到15%。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSm">
+    <style>
+      <fill id="fSm">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bAp">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>01 · RESEARCH OBJECTIVES</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bAn">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>构建&quot;感知—研判—预警—防控&quot;业务闭环</p>
+        </content>
+      </shape>
+      <line id="bAW" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="170" height="90" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="bAL">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="170" height="28" topLeftX="80" topLeftY="185" type="text" id="bAI">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 01</p>
+        </content>
+      </shape>
+      <shape width="170" height="30" topLeftX="80" topLeftY="210" type="text" id="bAK">
+        <content fontSize="18" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>感知</p>
+        </content>
+      </shape>
+      <shape width="170" height="20" topLeftX="80" topLeftY="240" type="text" id="bAY">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" textAlign="center">
+          <p>图像 + 环境多源采集</p>
+        </content>
+      </shape>
+      <line id="bAs" startX="258" startY="220" endX="290.01562118716424" endY="220">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="170" height="90" topLeftX="298" topLeftY="175" presetHandlers="0" type="rect" id="bAo">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="170" height="28" topLeftX="298" topLeftY="185" type="text" id="bAX">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 02</p>
+        </content>
+      </shape>
+      <shape width="170" height="30" topLeftX="298" topLeftY="210" type="text" id="bAQ">
+        <content fontSize="18" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>研判</p>
+        </content>
+      </shape>
+      <shape width="170" height="20" topLeftX="298" topLeftY="240" type="text" id="bAM">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" textAlign="center">
+          <p>YOLO11n 推理 + 规则引擎</p>
+        </content>
+      </shape>
+      <line id="bAS" startX="476" startY="220" endX="508.01562118716424" endY="220">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="170" height="90" topLeftX="516" topLeftY="175" presetHandlers="0" type="rect" id="bAC">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="170" height="28" topLeftX="516" topLeftY="185" type="text" id="bAj">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 03</p>
+        </content>
+      </shape>
+      <shape width="170" height="30" topLeftX="516" topLeftY="210" type="text" id="bAb">
+        <content fontSize="18" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>预警</p>
+        </content>
+      </shape>
+      <shape width="170" height="20" topLeftX="516" topLeftY="240" type="text" id="bAJ">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" textAlign="center">
+          <p>四级分级预警推送</p>
+        </content>
+      </shape>
+      <line id="bAt" startX="694" startY="220" endX="726.0156211871642" endY="220">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="146" height="90" topLeftX="734" topLeftY="175" presetHandlers="0" type="rect" id="bAi">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="146" height="28" topLeftX="734" topLeftY="185" type="text" id="bAO">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 04</p>
+        </content>
+      </shape>
+      <shape width="146" height="30" topLeftX="734" topLeftY="210" type="text" id="bAx">
+        <content fontSize="18" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>防控</p>
+        </content>
+      </shape>
+      <shape width="146" height="20" topLeftX="734" topLeftY="240" type="text" id="bAH">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" textAlign="center">
+          <p>知识库防治建议输出</p>
+        </content>
+      </shape>
+      <line id="bAq" startX="80" startY="310" endX="880.0006249997559" endY="310">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="360" height="24" topLeftX="80" topLeftY="335" type="text" id="bAg">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" bold="true">
+          <p>传统模式</p>
+        </content>
+      </shape>
+      <shape width="360" height="30" topLeftX="80" topLeftY="365" type="text" id="bAV">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)">
+          <p>人工巡查 → 经验判断 → 事后处置 → 被动防控</p>
+        </content>
+      </shape>
+      <shape width="380" height="24" topLeftX="500" topLeftY="335" type="text" id="bAU">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true">
+          <p>智能新模式</p>
+        </content>
+      </shape>
+      <shape width="380" height="30" topLeftX="500" topLeftY="365" type="text" id="bAG">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>边缘感知 → AI 智能研判 → 提前预警 → 主动防控</p>
+        </content>
+      </shape>
+      <shape width="800" height="50" topLeftX="80" topLeftY="420" type="text" id="bAz">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>设计目标：重点提升田间数据实时处理能力、病虫害识别精准度与农业灾害应急处置效率，将传统滞后工作模式重构为数字化、智能化农事管理流程。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bAy">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>04 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bAa">
+      <content>
+        <p>本系统的设计目标是形成感知、研判、预警、防控的业务闭环。感知层通过摄像头和传感器采集多源数据，研判层用YOLO11n模型结合规则引擎进行分析，预警层输出四级分级预警，防控层通过知识库给出防治建议。这一闭环将传统的人工巡查、事后处置、被动防控模式，升级为边缘感知、智能研判、提前预警、主动防控的新模式。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSP">
+    <style>
+      <fill id="fSP">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bAP">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>02 · SYSTEM ARCHITECTURE</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bAw">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>四层架构：感知—边缘—平台—应用</p>
+        </content>
+      </shape>
+      <line id="bAB" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="220" height="78" topLeftX="80" topLeftY="160" presetHandlers="0" type="rect" id="bee">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.08)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="20" topLeftX="92" topLeftY="168" type="text" id="beZ">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1">
+          <p>APPLICATION · 应用层</p>
+        </content>
+      </shape>
+      <shape width="200" height="40" topLeftX="92" topLeftY="192" type="text" id="beu">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.4">
+          <p>数据总览 · 智能检测 · 数据统计</p>
+          <p>预警中心 · 知识库 · 系统设置</p>
+        </content>
+      </shape>
+      <line id="bAm" startX="190.00000000000003" startY="243" endX="190.00000000000003" endY="257.0356688476182">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="220" height="78" topLeftX="80" topLeftY="261" presetHandlers="0" type="rect" id="bAE">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="20" topLeftX="92" topLeftY="269" type="text" id="bAR">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1">
+          <p>PLATFORM · 平台层</p>
+        </content>
+      </shape>
+      <shape width="200" height="40" topLeftX="92" topLeftY="293" type="text" id="beA">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.4">
+          <p>Flask Web 服务 · RESTful API</p>
+          <p>SQLite 持久化 · 模型推理调度</p>
+        </content>
+      </shape>
+      <line id="beD" startX="190" startY="344" endX="190" endY="358.0356688476182">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="220" height="78" topLeftX="80" topLeftY="362" presetHandlers="0" type="rect" id="bef">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="20" topLeftX="92" topLeftY="370" type="text" id="bAF">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1">
+          <p>EDGE · 边缘计算层</p>
+        </content>
+      </shape>
+      <shape width="200" height="40" topLeftX="92" topLeftY="394" type="text" id="bAd">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.4">
+          <p>RK3588 · YOLO11n 本地推理</p>
+          <p>数据清洗融合 · 断网可用</p>
+        </content>
+      </shape>
+      <line id="bAl" startX="190" startY="445" endX="190" endY="459.0356688476182">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="220" height="56" topLeftX="80" topLeftY="463" presetHandlers="0" type="rect" id="beh">
+        <fill>
+          <fillColor color="rgba(14, 165, 233, 0.06)"/>
+        </fill>
+        <border color="rgba(14, 165, 233, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="20" topLeftX="92" topLeftY="470" type="text" id="bek">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(14, 165, 233, 1)" bold="true" letterSpacing="1">
+          <p>SENSING · 感知层</p>
+        </content>
+      </shape>
+      <shape width="208" height="24" topLeftX="88" topLeftY="490" type="text" id="bAc">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" wrap="false">
+          <p>USB 摄像头 · 温湿度 · 光照 · 墒情</p>
+        </content>
+      </shape>
+      <line id="bAv" startX="340" startY="160" endX="340.00000000000006" endY="519.0013927549585">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="500" height="28" topLeftX="370" topLeftY="160" type="text" id="bAT">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>技术选型</p>
+        </content>
+      </shape>
+      <shape width="500" height="300" topLeftX="370" topLeftY="198" type="text" id="beN">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.9">
+          <p><strong><span color="rgba(37, 99, 235, 1)">AI 训练：</span></strong>PyTorch + Ultralytics YOLO11n，迁移学习微调</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">AI 推理：</span></strong>Ultralytics / ONNX Runtime / RKNN-Toolkit2</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">Web 后端：</span></strong>Flask 2.3.3，RESTful API，SQLite 数据库</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">Web 前端：</span></strong>原生 HTML/CSS/JS + ECharts，单页应用</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">边缘硬件：</span></strong>香橙派 5（RK3588, 8GB），6TOPS NPU</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">传感器：</span></strong>DHT22 温湿度 / BH1750 光照 / 土壤墒情</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">环境管理：</span></strong>Anaconda3，labelenv + yolo11 双虚拟环境</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="ber">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>05 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bhW">
+      <content>
+        <p>系统采用四层架构。最底层感知层通过摄像头和三类传感器采集多源数据。向上是边缘计算层，在RK3588终端运行YOLO11n本地推理。再向上是平台层，基于Flask构建Web服务和RESTful API。最顶层是应用层，包含六大功能模块。右侧列出各层核心技术选型。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSw">
+    <style>
+      <fill id="fSw">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bNu">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>03 · DATASET</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="ben">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>自建数据集：水稻与玉米 6 类病虫害</p>
+        </content>
+      </shape>
+      <line id="beE" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <table id="bed" width="460" height="270" topLeftX="80" topLeftY="160">
+        <colgroup>
+          <col span="1" width="40"/>
+          <col span="1" width="150"/>
+          <col span="1" width="170"/>
+          <col span="1" width="100"/>
+        </colgroup>
+        <tr height="37">
+          <td id="bNH">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>ID</p>
+            </content>
+          </td>
+          <td id="beX">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>英文标识</p>
+            </content>
+          </td>
+          <td id="bev">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>中文名称</p>
+            </content>
+          </td>
+          <td id="bew">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>作物</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNe">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>0</p>
+            </content>
+          </td>
+          <td id="bNU">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>neck_blast</p>
+            </content>
+          </td>
+          <td id="beS">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻细菌性条斑病（颈瘟）</p>
+            </content>
+          </td>
+          <td id="beC">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bem">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>1</p>
+            </content>
+          </td>
+          <td id="bND">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>rice_leaf_blast</p>
+            </content>
+          </td>
+          <td id="bNW">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻叶斑病</p>
+            </content>
+          </td>
+          <td id="beJ">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bet">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>2</p>
+            </content>
+          </td>
+          <td id="beR">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>brown_spot</p>
+            </content>
+          </td>
+          <td id="bNk">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻棕色斑点</p>
+            </content>
+          </td>
+          <td id="bNY">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水稻</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bex">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>3</p>
+            </content>
+          </td>
+          <td id="beF">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>corn_leaf_spot</p>
+            </content>
+          </td>
+          <td id="bel">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米叶斑病</p>
+            </content>
+          </td>
+          <td id="bNr">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNQ">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>4</p>
+            </content>
+          </td>
+          <td id="beV">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>corn_leaf_blight</p>
+            </content>
+          </td>
+          <td id="bec">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米叶枯病</p>
+            </content>
+          </td>
+          <td id="beT">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="38">
+          <td id="bNZ">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>5</p>
+            </content>
+          </td>
+          <td id="bNj">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>corn_rust</p>
+            </content>
+          </td>
+          <td id="bey">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米叶锈病</p>
+            </content>
+          </td>
+          <td id="beP">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>玉米</p>
+            </content>
+          </td>
+        </tr>
+      </table>
+      <shape width="460" height="50" topLeftX="80" topLeftY="445" type="text" id="bNh">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>标注工具：LabelImg，YOLO 格式边界框标注</p>
+          <p>标注规范：参照 GB/T 42755-2023《人工智能面向机器学习的数据标注规程》</p>
+        </content>
+      </shape>
+      <line id="bNA" startX="570" startY="160" endX="570" endY="495.00149253398854">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="280" height="24" topLeftX="590" topLeftY="160" type="text" id="bNf">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>各类别标注框数量分布</p>
+        </content>
+      </shape>
+      <img id="beI" src="VJisbayGQoLQWXxZecPcfBZYn5c" width="290" height="280" topLeftX="590" topLeftY="195">
+        <crop type="rect" leftOffset="0" rightOffset="0" topOffset="5" bottomOffset="5"/>
+      </img>
+      <shape width="290" height="20" topLeftX="590" topLeftY="480" type="text" id="beK">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center">
+          <p>neck_blast 约 500+，其余类别 170–200</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bNN">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>06 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="beB">
+      <content>
+        <p>数据集来源于自有的水稻与玉米田间拍摄图像，共包含6类病虫害。其中水稻3类：细菌性条斑病（颈瘟）、叶斑病、棕色斑点；玉米3类：叶斑病、叶枯病、叶锈病。使用LabelImg工具按YOLO格式进行边界框标注，参照国家标准GB/T 42755-2023。从标注框数量分布看，颈瘟类别样本最多约500多个，其余类别在170到200之间，数据量相对有限是部分类别精度偏低的原因之一。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSa">
+    <style>
+      <fill id="fSa">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bNs">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>03 · DATA AUGMENTATION</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bNo">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>数据增强：提升小样本场景下的模型泛化能力</p>
+        </content>
+      </shape>
+      <line id="bNK" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <table id="bNL" width="520" height="310" topLeftX="80" topLeftY="165">
+        <colgroup>
+          <col span="1" width="130"/>
+          <col span="1" width="110"/>
+          <col span="1" width="280"/>
+        </colgroup>
+        <tr height="37">
+          <td id="bNp">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>增强方法</p>
+            </content>
+          </td>
+          <td id="bNn">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>参数</p>
+            </content>
+          </td>
+          <td id="bNF">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>说明</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNl">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>色调调整</p>
+            </content>
+          </td>
+          <td id="bNG">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>hsv_h = 0.015</p>
+            </content>
+          </td>
+          <td id="bNz">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>模拟不同光照条件下的色温变化</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNy">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>饱和度调整</p>
+            </content>
+          </td>
+          <td id="bNm">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>hsv_s = 0.7</p>
+            </content>
+          </td>
+          <td id="bNq">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>增强或减弱色彩饱和度</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNg">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>亮度调整</p>
+            </content>
+          </td>
+          <td id="bNV">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>hsv_v = 0.4</p>
+            </content>
+          </td>
+          <td id="bNt">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>模拟不同曝光条件</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNw">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>平移变换</p>
+            </content>
+          </td>
+          <td id="bNi">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>translate = 0.1</p>
+            </content>
+          </td>
+          <td id="bNO">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>模拟目标在画面中的位置偏移</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNx">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>缩放变换</p>
+            </content>
+          </td>
+          <td id="bNv">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>scale = 0.5</p>
+            </content>
+          </td>
+          <td id="bNb">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>模拟不同拍摄距离</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNJ">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>水平翻转</p>
+            </content>
+          </td>
+          <td id="bNC">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>fliplr = 0.5</p>
+            </content>
+          </td>
+          <td id="bNd">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>增加数据多样性</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="39">
+          <td id="bNM">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>马赛克增强</p>
+            </content>
+          </td>
+          <td id="bNS">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>mosaic = 1.0</p>
+            </content>
+          </td>
+          <td id="bNX">
+            <content fontSize="11" fontFamily="思源黑体" textAlign="left">
+              <p>4 张图拼接为 1 张，提升小目标检测</p>
+            </content>
+          </td>
+        </tr>
+      </table>
+      <line id="bNI" startX="640" startY="165" endX="640" endY="475.0016128990299">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="220" height="28" topLeftX="670" topLeftY="165" type="text" id="bNP">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>增强策略要点</p>
+        </content>
+      </shape>
+      <shape width="220" height="260" topLeftX="670" topLeftY="205" type="text" id="bNc">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">HSV 色彩抖动</span></strong></p>
+          <p>模拟田间不同时段光照与色温变化，增强模型对光照变化的鲁棒性。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">几何变换</span></strong></p>
+          <p>平移、缩放、翻转模拟不同拍摄角度与距离，覆盖实际田间拍摄的多样性。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">Mosaic 增强</span></strong></p>
+          <p>4 图拼接有效提升小目标病斑的检测能力，丰富 batch 内目标分布。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bNa">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>07 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bNE">
+      <content>
+        <p>为提升模型在小样本场景下的泛化能力，采用YOLO内置的数据增强策略。包括HSV色彩抖动（色调、饱和度、亮度）模拟田间不同光照条件，几何变换（平移、缩放、水平翻转）模拟不同拍摄角度，以及Mosaic马赛克增强将4张图拼接为1张，有效提升小目标病斑的检测能力。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSI">
+    <style>
+      <fill id="fSI">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bej">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>03 · MODEL ARCHITECTURE</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bea">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>YOLO11n：端到端单阶段目标检测架构</p>
+        </content>
+      </shape>
+      <line id="beb" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="240" height="200" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="bez">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="240" height="24" topLeftX="80" topLeftY="185" type="text" id="beH">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>BACKBONE · 骨干网络</p>
+        </content>
+      </shape>
+      <shape width="210" height="140" topLeftX="95" topLeftY="220" type="text" id="beQ">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.7">
+          <p>C3k2 模块堆叠</p>
+          <p>SPPF 空间金字塔池化</p>
+          <p>多尺度特征提取</p>
+          <p>Conv + BN + SiLU</p>
+          <p>提取边缘、纹理、形状等通用视觉特征</p>
+        </content>
+      </shape>
+      <line id="beG" startX="326" startY="275" endX="360.0147027033899" endY="275">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="240" height="200" topLeftX="368" topLeftY="175" presetHandlers="0" type="rect" id="beM">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.07)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="240" height="24" topLeftX="368" topLeftY="185" type="text" id="beg">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>NECK · 特征融合</p>
+        </content>
+      </shape>
+      <shape width="210" height="140" topLeftX="383" topLeftY="220" type="text" id="beo">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.7">
+          <p>FPN + PAN 双向融合</p>
+          <p>自顶向下 + 自底向上</p>
+          <p>多尺度特征聚合</p>
+          <p>C2PSA 注意力模块</p>
+          <p>融合浅层细节与深层语义信息</p>
+        </content>
+      </shape>
+      <line id="beY" startX="614" startY="275" endX="648.0147027033898" endY="275">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="224" height="200" topLeftX="656" topLeftY="175" presetHandlers="0" type="rect" id="beq">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.09)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="224" height="24" topLeftX="656" topLeftY="185" type="text" id="bes">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>HEAD · 检测头</p>
+        </content>
+      </shape>
+      <shape width="194" height="140" topLeftX="671" topLeftY="220" type="text" id="beO">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.7">
+          <p>解耦检测头</p>
+          <p>分类分支 + 回归分支</p>
+          <p>Anchor-free 检测</p>
+          <p>DFL 分布焦点损失</p>
+          <p>单次前向输出类别与位置</p>
+        </content>
+      </shape>
+      <line id="beW" startX="80" startY="410" endX="880.0006249997559" endY="410">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="28" topLeftX="80" topLeftY="430" type="text" id="bei">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>关键特性</p>
+        </content>
+      </shape>
+      <shape width="800" height="40" topLeftX="80" topLeftY="462" type="text" id="beL">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p><strong><span color="rgba(37, 99, 235, 1)">端到端回归：</span></strong>单次前向传播同时完成类别预测与位置回归，检测速度快。　<strong><span color="rgba(37, 99, 235, 1)">轻量级：</span></strong>nano 版本模型体积约 6MB，适合边缘部署。　<strong><span color="rgba(37, 99, 235, 1)">Anchor-free：</span></strong>无需预设锚框，降低超参数复杂度。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bep">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>08 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="beU">
+      <content>
+        <p>本系统选用YOLO11n作为核心检测算法。YOLO系列将目标检测转化为端到端回归问题，单次前向传播同时完成类别预测与位置回归。架构分为三部分：Backbone骨干网络采用C3k2模块和SPPF空间金字塔池化提取多尺度特征；Neck特征融合采用FPN+PAN双向结构融合浅层细节与深层语义；Head检测头采用解耦设计，分类与回归分支分离，Anchor-free检测。nano版本模型体积仅约6MB，非常适合边缘部署。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSU">
+    <style>
+      <fill id="fSU">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bkN">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>03 · TRANSFER LEARNING</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bkr">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>迁移学习：COCO 预训练 → 病虫害数据集微调</p>
+        </content>
+      </shape>
+      <line id="bkH" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="240" height="160" topLeftX="80" topLeftY="180" presetHandlers="0" type="rect" id="bkQ">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="240" height="24" topLeftX="80" topLeftY="195" type="text" id="bkh">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 1 · 加载预训练权重</p>
+        </content>
+      </shape>
+      <shape width="200" height="100" topLeftX="100" topLeftY="230" type="text" id="bkk">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>YOLO11n 在 COCO 数据集上的预训练权重</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">yolo11n.pt</span></strong></p>
+          <p>80 类通用物体，已学习丰富视觉特征</p>
+        </content>
+      </shape>
+      <line id="bkf" startX="326" startY="260" endX="370.01136216933077" endY="260">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="240" height="160" topLeftX="378" topLeftY="180" presetHandlers="0" type="rect" id="bkY">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.07)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="240" height="24" topLeftX="378" topLeftY="195" type="text" id="bNR">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 2 · 冻结骨干网络</p>
+        </content>
+      </shape>
+      <shape width="200" height="100" topLeftX="398" topLeftY="230" type="text" id="bkA">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>冻结 Backbone 前若干层</p>
+          <p>保留通用视觉特征提取能力</p>
+          <p>边缘、纹理、形状等底层特征可迁移</p>
+        </content>
+      </shape>
+      <line id="bkD" startX="624" startY="260" endX="668.0113621693308" endY="260">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="204" height="160" topLeftX="676" topLeftY="180" presetHandlers="0" type="rect" id="bku">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.09)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="204" height="24" topLeftX="676" topLeftY="195" type="text" id="bkW">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="1" textAlign="center">
+          <p>STEP 3 · 微调训练</p>
+        </content>
+      </shape>
+      <shape width="176" height="100" topLeftX="690" topLeftY="230" type="text" id="bNB">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>自建 6 类病虫害数据集</p>
+          <p>Fine-tuning 更新网络权重</p>
+          <p>适应特定病虫害检测任务</p>
+        </content>
+      </shape>
+      <line id="bke" startX="80" startY="380" endX="880.0006249997559" endY="380">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="28" topLeftX="80" topLeftY="400" type="text" id="bkZ">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>迁移学习的核心优势</p>
+        </content>
+      </shape>
+      <shape width="800" height="60" topLeftX="80" topLeftY="435" type="text" id="bkU">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>COCO 数据集包含 80 个通用物体类别，其预训练权重已学习到丰富的视觉特征（边缘、纹理、形状等），这些特征对于病虫害识别同样具有借鉴意义。实验表明，即使标注数据量有限（每类约 170–500 个标注框），通过迁移学习仍能达到 <strong><span color="rgba(37, 99, 235, 1)">0.453 的整体 mAP50</span></strong>，证明了迁移学习策略在农业小样本场景下的有效性。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bkj">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>09 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bNT">
+      <content>
+        <p>为在有限数据集上获得较好的检测效果，采用迁移学习策略。第一步加载YOLO11n在COCO数据集上的预训练权重yolo11n.pt。第二步冻结骨干网络前若干层，保留通用视觉特征提取能力。第三步在自建的6类病虫害数据集上进行微调，更新网络权重适应特定任务。COCO预训练权重已学习到边缘、纹理、形状等丰富视觉特征，这些特征对病虫害识别同样有效。实验表明即使每类仅170到500个标注框，迁移学习仍能达到0.453的整体mAP50。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSF">
+    <style>
+      <fill id="fSF">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bkS">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>03 · TRAINING CONFIG</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bkC">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>训练超参数配置</p>
+        </content>
+      </shape>
+      <line id="bkv" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <table id="bkq" width="380" height="358" topLeftX="80" topLeftY="165">
+        <colgroup>
+          <col span="1" width="160"/>
+          <col span="1" width="220"/>
+        </colgroup>
+        <tr height="34">
+          <td id="bkm">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>参数</p>
+            </content>
+          </td>
+          <td id="bkG">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>值</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkp">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>训练轮数 epochs</p>
+            </content>
+          </td>
+          <td id="bkn">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>100</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkP">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>批次大小 batch</p>
+            </content>
+          </td>
+          <td id="bkz">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>8</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bky">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>输入尺寸 imgsz</p>
+            </content>
+          </td>
+          <td id="bkc">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>640 × 640</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bks">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>训练设备 device</p>
+            </content>
+          </td>
+          <td id="bko">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>CPU（i5-13500H）</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkX">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>初始学习率 lr0</p>
+            </content>
+          </td>
+          <td id="bkd">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>0.01</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkL">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>优化器</p>
+            </content>
+          </td>
+          <td id="bkI">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>SGD（动量 0.937）</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkK">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>权重衰减</p>
+            </content>
+          </td>
+          <td id="bkE">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>0.0005</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkb">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>预热轮数 warmup</p>
+            </content>
+          </td>
+          <td id="bkJ">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>3</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="36">
+          <td id="bkt">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>学习率调度</p>
+            </content>
+          </td>
+          <td id="bkw">
+            <content fontSize="12" fontFamily="思源黑体">
+              <p>余弦退火 cos_lr</p>
+            </content>
+          </td>
+        </tr>
+      </table>
+      <line id="bkg" startX="500" startY="165" endX="500" endY="495.0015151480368">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="350" height="28" topLeftX="530" topLeftY="165" type="text" id="bkV">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>损失函数权重</p>
+        </content>
+      </shape>
+      <shape width="350" height="80" topLeftX="530" topLeftY="200" type="text" id="bkF">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">box = 7.5</span></strong>　边界框回归损失</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">cls = 0.5</span></strong>　分类损失</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">dfl = 1.5</span></strong>　分布焦点损失</p>
+        </content>
+      </shape>
+      <line id="bki" startX="530" startY="295" endX="880.0014285685131" endY="295">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="350" height="28" topLeftX="530" topLeftY="310" type="text" id="bka">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>训练策略说明</p>
+        </content>
+      </shape>
+      <shape width="350" height="150" topLeftX="530" topLeftY="345" type="text" id="bkO">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>采用 SGD 优化器配合余弦退火学习率调度，前 3 轮进行学习率预热以稳定初始训练。</p>
+          <p>早停策略 patience = 50，连续 50 轮无提升则自动停止训练，防止过拟合。</p>
+          <p>训练阶段使用 CPU（i5-13500H），同时借助 AutoDL 云端 GPU 平台加速训练。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bkx">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>10 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bkM">
+      <content>
+        <p>模型训练超参数配置如下：训练100轮，批次大小8，输入尺寸640x640，使用CPU训练。优化器采用SGD，初始学习率0.01，动量0.937，权重衰减0.0005。前3轮学习率预热，之后采用余弦退火调度。损失函数权重为box=7.5、cls=0.5、dfl=1.5。早停策略patience=50，防止过拟合。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSf">
+    <style>
+      <fill id="fSf">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bDD">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>04 · EXPERIMENTAL RESULTS</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bDu">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>模型整体性能：mAP50 达 0.453，推理约 0.5 秒/张</p>
+        </content>
+      </shape>
+      <line id="bDW" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="185" height="130" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="bDi">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="80" topLeftY="190" type="text" id="bkR">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="1" textAlign="center">
+          <p>mAP@0.5</p>
+        </content>
+      </shape>
+      <shape width="185" height="56" topLeftX="80" topLeftY="215" type="text" id="bDh">
+        <content textType="title" fontSize="44" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>0.453</p>
+        </content>
+      </shape>
+      <shape width="185" height="20" topLeftX="80" topLeftY="275" type="text" id="bDk">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center">
+          <p>整体平均精度</p>
+        </content>
+      </shape>
+      <shape width="185" height="130" topLeftX="285" topLeftY="175" presetHandlers="0" type="rect" id="bDf">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="285" topLeftY="190" type="text" id="bDY">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="1" textAlign="center">
+          <p>PRECISION</p>
+        </content>
+      </shape>
+      <shape width="185" height="56" topLeftX="285" topLeftY="215" type="text" id="bDq">
+        <content textType="title" fontSize="44" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>0.500</p>
+        </content>
+      </shape>
+      <shape width="185" height="20" topLeftX="285" topLeftY="275" type="text" id="bkl">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center">
+          <p>精确率</p>
+        </content>
+      </shape>
+      <shape width="185" height="130" topLeftX="490" topLeftY="175" presetHandlers="0" type="rect" id="bDN">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="490" topLeftY="190" type="text" id="bDr">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="1" textAlign="center">
+          <p>RECALL</p>
+        </content>
+      </shape>
+      <shape width="185" height="56" topLeftX="490" topLeftY="215" type="text" id="bDH">
+        <content textType="title" fontSize="44" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>0.452</p>
+        </content>
+      </shape>
+      <shape width="185" height="20" topLeftX="490" topLeftY="275" type="text" id="bDQ">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center">
+          <p>召回率</p>
+        </content>
+      </shape>
+      <shape width="185" height="130" topLeftX="695" topLeftY="175" presetHandlers="0" type="rect" id="bDG">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="695" topLeftY="190" type="text" id="bkT">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="1" textAlign="center">
+          <p>mAP@0.5:0.95</p>
+        </content>
+      </shape>
+      <shape width="185" height="56" topLeftX="695" topLeftY="215" type="text" id="bDe">
+        <content textType="title" fontSize="44" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>0.171</p>
+        </content>
+      </shape>
+      <shape width="185" height="20" topLeftX="695" topLeftY="275" type="text" id="bDZ">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center">
+          <p>多 IoU 阈值平均精度</p>
+        </content>
+      </shape>
+      <line id="bDU" startX="80" startY="340" endX="880.0006249997559" endY="340">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="28" topLeftX="80" topLeftY="360" type="text" id="bDj">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>补充指标</p>
+        </content>
+      </shape>
+      <shape width="800" height="90" topLeftX="80" topLeftY="395" type="text" id="bDa">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">最佳 F1 值：</span></strong>0.48，对应最优置信度阈值 0.301——为系统检测阈值设置提供依据。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">推理时间：</span></strong>约 0.5 秒/张（640×640，CPU i5-13500H），边缘部署后可进一步降低延迟。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">模型体积：</span></strong>约 6MB（YOLO11n nano 版本），适合 RK3588 等边缘设备轻量化部署。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bkB">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>11 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bDA">
+      <content>
+        <p>模型在验证集上的整体性能如下：mAP@0.5达到0.453，精确率0.500，召回率0.452，mAP@0.5:0.95为0.171。最佳F1值为0.48，对应最优置信度阈值0.301，这为系统设置检测置信度阈值提供了依据。推理时间约0.5秒每张，模型体积仅约6MB，适合边缘部署。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSs">
+    <style>
+      <fill id="fSs">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bUf">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>04 · PER-CLASS PERFORMANCE</p>
+        </content>
+      </shape>
+      <shape width="860" height="44" topLeftX="80" topLeftY="82" type="text" id="bUq">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>各类别 mAP@0.5：玉米叶斑病最优（0.657），玉米叶锈病待优化</p>
+        </content>
+      </shape>
+      <line id="bUO" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <chart width="490" height="350" topLeftX="70" topLeftY="155" id="bUV">
+        <chartPlotArea>
+          <chartPlot type="column">
+            <chartExtra/>
+            <chartLabels color="rgba(51, 65, 85, 1)" position="outside" format="0.000" fontSize="10"/>
+          </chartPlot>
+          <chartAxes>
+            <chartAxis type="x">
+              <chartLabel fontSize="10"/>
+            </chartAxis>
+            <chartAxis type="y" position="left">
+              <chartGridLine color="rgb(226, 232, 240)"/>
+              <chartLabel fontSize="9"/>
+            </chartAxis>
+          </chartAxes>
+        </chartPlotArea>
+        <chartData isStaticData="true">
+          <dim1>
+            <chartField name="类别">玉米叶锈病,颈瘟,水稻叶斑病,玉米叶枯病,水稻棕色斑点,玉米叶斑病<chartParsedValues>玉米叶锈病</chartParsedValues><chartParsedValues>颈瘟</chartParsedValues><chartParsedValues>水稻叶斑病</chartParsedValues><chartParsedValues>玉米叶枯病</chartParsedValues><chartParsedValues>水稻棕色斑点</chartParsedValues><chartParsedValues>玉米叶斑病</chartParsedValues></chartField>
+          </dim1>
+          <dim2>
+            <chartField name="mAP@0.5">0.208,0.267,0.485,0.503,0.598,0.657</chartField>
+          </dim2>
+        </chartData>
+        <chartStyle>
+          <chartBackground color="rgba(0, 0, 0, 0)"/>
+          <chartBorder color="rgb(222, 224, 227)" width="0"/>
+          <chartColorTheme>
+            <color value="rgb(37, 99, 235)"/>
+          </chartColorTheme>
+        </chartStyle>
+        <chartTooltip format="0.000"/>
+      </chart>
+      <line id="bUu" startX="560" startY="160" endX="560" endY="500.0014705850549">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="290" height="24" topLeftX="590" topLeftY="160" type="text" id="bUi">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>类别排名与评价</p>
+        </content>
+      </shape>
+      <table id="bUp" width="290" height="280" topLeftX="590" topLeftY="195">
+        <colgroup>
+          <col span="1" width="30"/>
+          <col span="1" width="130"/>
+          <col span="1" width="50"/>
+          <col span="1" width="80"/>
+        </colgroup>
+        <tr height="34">
+          <td id="bUa">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>#</p>
+            </content>
+          </td>
+          <td id="bUz">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>类别</p>
+            </content>
+          </td>
+          <td id="bUe">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>mAP</p>
+            </content>
+          </td>
+          <td id="bul">
+            <fill>
+              <fillColor color="rgba(37, 99, 235, 1)"/>
+            </fill>
+            <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+              <p>评价</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="bUN">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>1</p>
+            </content>
+          </td>
+          <td id="bUH">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>玉米叶斑病</p>
+            </content>
+          </td>
+          <td id="bUG">
+            <content fontSize="11" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true">
+              <p>0.657</p>
+            </content>
+          </td>
+          <td id="bUo">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>最优</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="buv">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>2</p>
+            </content>
+          </td>
+          <td id="bUk">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>水稻棕色斑点</p>
+            </content>
+          </td>
+          <td id="bUY">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>0.598</p>
+            </content>
+          </td>
+          <td id="bUs">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>良好</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="bUI">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>3</p>
+            </content>
+          </td>
+          <td id="buR">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>玉米叶枯病</p>
+            </content>
+          </td>
+          <td id="bUD">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>0.503</p>
+            </content>
+          </td>
+          <td id="bUW">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>中等</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="bUL">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>4</p>
+            </content>
+          </td>
+          <td id="bUJ">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>水稻叶斑病</p>
+            </content>
+          </td>
+          <td id="buB">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>0.485</p>
+            </content>
+          </td>
+          <td id="bUZ">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>中等</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="bUj">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>5</p>
+            </content>
+          </td>
+          <td id="bUb">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>颈瘟</p>
+            </content>
+          </td>
+          <td id="bUS">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>0.267</p>
+            </content>
+          </td>
+          <td id="buT">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>较差</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="41">
+          <td id="bUQ">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>6</p>
+            </content>
+          </td>
+          <td id="bUM">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>玉米叶锈病</p>
+            </content>
+          </td>
+          <td id="bUg">
+            <content fontSize="11" fontFamily="思源黑体">
+              <p>0.208</p>
+            </content>
+          </td>
+          <td id="bUr">
+            <content fontSize="10" fontFamily="思源黑体">
+              <p>较差</p>
+            </content>
+          </td>
+        </tr>
+      </table>
+      <shape width="290" height="20" topLeftX="590" topLeftY="485" type="text" id="bUA">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)">
+          <p>整体 mAP@0.5 = 0.453</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bUU">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>12 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bZp">
+      <content>
+        <p>各类别的mAP@0.5表现差异明显。排名第一的是玉米叶斑病，mAP达到0.657，病斑特征明显易于区分。其次是水稻棕色斑点0.598，表现良好。玉米叶枯病0.503和水稻叶斑病0.485处于中等水平。表现较差的是颈瘟0.267和玉米叶锈病0.208，这两类病害症状特征细微、与健康叶片相似度高，且样本量有限，是后续优化的重点。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSb">
+    <style>
+      <fill id="fSb">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bDs">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>04 · TRAINING CURVES</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bDb">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>训练过程：损失稳定下降，mAP50 约 50 轮后收敛</p>
+        </content>
+      </shape>
+      <line id="bDg" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <img id="bDz" src="G2BGbyTYSorUh0xFTEnccI3OnJf" width="500.0000000000001" height="350" topLeftX="60" topLeftY="155">
+        <crop type="rect" leftOffset="100" rightOffset="99.99999999999989" topOffset="0" bottomOffset="0"/>
+      </img>
+      <line id="bDo" startX="580" startY="155" endX="580" endY="505.0014285685131">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="270" height="24" topLeftX="610" topLeftY="160" type="text" id="bDL">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>关键观察</p>
+        </content>
+      </shape>
+      <shape width="270" height="300" topLeftX="610" topLeftY="195" type="text" id="bDM">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">训练损失</span></strong></p>
+          <p>train/box_loss 从 2.3 降至 1.7，train/cls_loss 从 3.4 降至 1.3，模型稳定收敛。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">验证损失</span></strong></p>
+          <p>val/box_loss 与 val/cls_loss 分别在 2.2 和 1.8 附近波动，略高于训练集，存在一定程度过拟合。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">精度指标</span></strong></p>
+          <p>mAP50 在约 50 轮后趋于稳定（0.42–0.45），进一步增加训练轮数收益有限。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bDO">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>13 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bDp">
+      <content>
+        <p>训练过程曲线图包含8个子图，展示了训练和验证的box_loss、cls_loss、dfl_loss以及Precision、Recall、mAP50、mAP50-95的变化趋势。可以观察到训练损失持续下降，模型稳定收敛。验证损失略高于训练损失，存在一定过拟合。mAP50在约50轮后趋于稳定在0.42到0.45之间，表明模型已基本收敛。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSd">
+    <style>
+      <fill id="fSd">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bDS">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>04 · ERROR ANALYSIS</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bDx">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>混淆矩阵：大量目标被误判为背景是召回率偏低的主因</p>
+        </content>
+      </shape>
+      <line id="bDy" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <img id="bDK" src="SBlBb8s5DocGAyxyjkHclTX1nUf" width="460" height="340" topLeftX="60" topLeftY="155">
+        <crop type="rect" leftOffset="0" rightOffset="0" topOffset="2.5" bottomOffset="2.5"/>
+      </img>
+      <line id="bDJ" startX="540" startY="155" endX="540" endY="505.0014285685131">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="310" height="24" topLeftX="570" topLeftY="160" type="text" id="bDV">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>关键问题诊断</p>
+        </content>
+      </shape>
+      <shape width="310" height="300" topLeftX="570" topLeftY="195" type="text" id="bDn">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.75">
+          <p><strong><span color="rgba(37, 99, 235, 1)">颈瘟（neck_blast）</span></strong></p>
+          <p>仅约 28% 被正确识别，68% 被误判为背景，存在严重漏检。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">水稻叶斑病（rice_leaf_blast）</span></strong></p>
+          <p>仅约 11% 正确识别，38% 被误判为背景。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">玉米叶斑病 / 叶锈病</span></strong></p>
+          <p>正确识别率接近 0%，几乎全部被误判为背景或类别混淆。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">根因分析</span></strong></p>
+          <p>① 部分病斑标注框过小，模型难以学习小目标特征；② 健康负样本占比高，模型倾向判别为背景；③ 早期病害特征不明显，与健康叶片难以区分。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text" id="bDX">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>15 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bDI">
+      <content>
+        <p>归一化混淆矩阵展示了各类别的分类混淆情况，对角线值代表正确分类的比例。关键发现是大量目标被误判为背景，这是导致召回率偏低约45%的主要原因。具体来看，颈瘟仅约28%被正确识别，68%被误判为背景。水稻叶斑病仅约11%正确识别。玉米叶斑病和叶锈病的正确识别率接近0%。根因包括：部分病斑标注框过小，健康负样本占比高，以及早期病害特征不明显与健康叶片难以区分。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSQ">
+    <style>
+      <fill id="fSQ">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bDE">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>04 · PR &amp; F1 ANALYSIS</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bDv">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>PR 曲线与 F1 分析：最佳 F1 = 0.48，最优阈值 0.301</p>
+        </content>
+      </shape>
+      <line id="bDR" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="380" height="24" topLeftX="80" topLeftY="160" type="text" id="bDC">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>各类别 PR 曲线</p>
+        </content>
+      </shape>
+      <img id="bDm" src="PKYpb5KaUo7wtqxRllLczQO0n4d" width="400" height="290" topLeftX="60" topLeftY="190">
+        <crop type="rect" leftOffset="17.500000000000007" rightOffset="17.499999999999943" topOffset="0" bottomOffset="-5.684341886080802e-14"/>
+      </img>
+      <line id="bDP" startX="480" startY="160" endX="480" endY="490.0015151480368">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="380" height="24" topLeftX="510" topLeftY="160" type="text" id="bDd">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>F1-置信度曲线</p>
+        </content>
+      </shape>
+      <img id="bDw" src="DAk0baXtWoYu8dxTisecmoGtnrc" width="400" height="290" topLeftX="490" topLeftY="190">
+        <crop type="rect" leftOffset="17.5" rightOffset="17.499999999999943" topOffset="0" bottomOffset="-5.684341886080802e-14"/>
+      </img>
+      <line id="bDl" startX="80" startY="495" endX="880.0006249997559" endY="495">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="720" height="35" topLeftX="80" topLeftY="500" type="text" id="bDt">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4">
+          <p><strong><span color="rgba(37, 99, 235, 1)">PR 曲线：</span></strong>玉米叶斑病曲线下面积最大，识别最稳定；玉米叶锈病与颈瘟曲线较低，需补充样本。　<strong><span color="rgba(37, 99, 235, 1)">F1 曲线：</span></strong>最佳 F1 = 0.48，最优置信度阈值 0.301，为系统阈值设置提供量化依据。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="bDF">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>14 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bDc">
+      <content>
+        <p>左侧是各类别的PR曲线，展示了精确率-召回率的权衡关系。玉米叶斑病的曲线下面积最大，识别最稳定。玉米叶锈病和颈瘟的曲线较低，是后续优化的重点。右侧是F1-置信度曲线，展示了不同置信度阈值下的F1值变化。整体最佳F1值为0.48，对应的最优置信度阈值为0.301，这为系统设置检测置信度阈值提供了量化依据。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSj">
+    <style>
+      <fill id="fSj">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bra">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>05 · RULE ENGINE</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="brL">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>规则引擎：&quot;检测结果 + 环境阈值&quot;复合决策，高湿风险放大</p>
+        </content>
+      </shape>
+      <line id="bre" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="200" height="120" topLeftX="80" topLeftY="170" presetHandlers="0" type="rect" id="brD">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="24" topLeftX="80" topLeftY="180" type="text" id="brW">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>检测结果输入</p>
+        </content>
+      </shape>
+      <shape width="170" height="70" topLeftX="95" topLeftY="210" type="text" id="brs">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>目标数量 × 最高置信度</p>
+          <p>≥6 处或 conf≥0.9 → 重度</p>
+          <p>≥3 处或 conf≥0.75 → 中度</p>
+        </content>
+      </shape>
+      <line id="bZR" startX="286" startY="230" endX="330.01136216933077" endY="230">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="200" height="120" topLeftX="338" topLeftY="170" presetHandlers="0" type="rect" id="brk">
+        <fill>
+          <fillColor color="rgba(14, 165, 233, 0.05)"/>
+        </fill>
+        <border color="rgba(14, 165, 233, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="24" topLeftX="338" topLeftY="180" type="text" id="brY">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(14, 165, 233, 1)" bold="true" textAlign="center">
+          <p>环境阈值输入</p>
+        </content>
+      </shape>
+      <shape width="170" height="70" topLeftX="353" topLeftY="210" type="text" id="brM">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>温度 ≥35℃ / ≤5℃</p>
+          <p>湿度 ≥85% / 墒情 ≤20%</p>
+          <p>光照 ≤500lx</p>
+        </content>
+      </shape>
+      <line id="bZl" startX="544" startY="230" endX="588.0113621693308" endY="230">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="284" height="120" topLeftX="596" topLeftY="170" presetHandlers="0" type="rect" id="brr">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.08)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="284" height="24" topLeftX="596" topLeftY="180" type="text" id="brQ">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>复合决策 evaluate_detection()</p>
+        </content>
+      </shape>
+      <shape width="256" height="70" topLeftX="610" topLeftY="210" type="text" id="brb">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>检测定级 + 环境越限判定</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">湿度 ≥85% → 风险 +10，轻度升中度</span></strong></p>
+          <p>输出：四级预警 + 防治建议</p>
+        </content>
+      </shape>
+      <line id="bZT" startX="80" startY="320" endX="880.0006249997559" endY="320">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="24" topLeftX="80" topLeftY="335" type="text" id="brZ">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>四级预警分级</p>
+        </content>
+      </shape>
+      <shape width="185" height="80" topLeftX="80" topLeftY="370" presetHandlers="0" type="rect" id="brj">
+        <fill>
+          <fillColor color="rgba(220, 38, 38, 0.06)"/>
+        </fill>
+        <border color="rgba(220, 38, 38, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="80" topLeftY="380" type="text" id="bZB">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(220, 38, 38, 1)" bold="true" textAlign="center">
+          <p>红色 · 重度</p>
+        </content>
+      </shape>
+      <shape width="165" height="36" topLeftX="90" topLeftY="408" type="text" id="bru">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4" textAlign="center">
+          <p>≥6 处病害或 conf≥0.9</p>
+          <p>立即处置</p>
+        </content>
+      </shape>
+      <shape width="185" height="80" topLeftX="285" topLeftY="370" presetHandlers="0" type="rect" id="bri">
+        <fill>
+          <fillColor color="rgba(234, 88, 12, 0.06)"/>
+        </fill>
+        <border color="rgba(234, 88, 12, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="285" topLeftY="380" type="text" id="brg">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(234, 88, 12, 1)" bold="true" textAlign="center">
+          <p>橙色 · 中度</p>
+        </content>
+      </shape>
+      <shape width="165" height="36" topLeftX="295" topLeftY="408" type="text" id="brA">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4" textAlign="center">
+          <p>≥3 处或 conf≥0.75</p>
+          <p>加强监测，准备防治</p>
+        </content>
+      </shape>
+      <shape width="185" height="80" topLeftX="490" topLeftY="370" presetHandlers="0" type="rect" id="brf">
+        <fill>
+          <fillColor color="rgba(202, 138, 4, 0.06)"/>
+        </fill>
+        <border color="rgba(202, 138, 4, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="490" topLeftY="380" type="text" id="brq">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(202, 138, 4, 1)" bold="true" textAlign="center">
+          <p>黄色 · 轻度</p>
+        </content>
+      </shape>
+      <shape width="165" height="36" topLeftX="500" topLeftY="408" type="text" id="brh">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4" textAlign="center">
+          <p>检出病害但程度较轻</p>
+          <p>持续观察</p>
+        </content>
+      </shape>
+      <shape width="185" height="80" topLeftX="695" topLeftY="370" presetHandlers="0" type="rect" id="brN">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="24" topLeftX="695" topLeftY="380" type="text" id="brH">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>蓝色 · 良好</p>
+        </content>
+      </shape>
+      <shape width="165" height="36" topLeftX="705" topLeftY="408" type="text" id="brG">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4" textAlign="center">
+          <p>未检出明显病害</p>
+          <p>正常监测</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="bZv">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>18 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="brU">
+      <content>
+        <p>规则引擎采用检测结果加环境阈值的复合决策逻辑。检测结果按目标数量和最高置信度定级：6处以上或置信度0.9以上为重度，3处以上或0.75以上为中度。环境阈值包括温度35度以上或5度以下、湿度85%以上、墒情20%以下、光照500勒克斯以下。核心创新是高湿风险放大逻辑：当湿度大于等于85%时，风险评分加10分，且轻度预警上浮为中度，因为高湿环境易诱发真菌性病害。最终输出红橙黄蓝四级预警和知识库防治建议。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSJ">
+    <style>
+      <fill id="fSJ">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bZX">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>05 · WEB PLATFORM</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bZt">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>Web 交互平台：六大功能模块覆盖完整业务链路</p>
+        </content>
+      </shape>
+      <line id="bZm" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <img id="bZc" src="SMGSbRW1MoQuKAxVIPqca4bUn3c" width="500" height="310" topLeftX="60" topLeftY="155">
+        <crop type="rect" leftOffset="39.541612483745155" rightOffset="39.5416124837451" topOffset="0" bottomOffset="0"/>
+      </img>
+      <line id="bZd" startX="580" startY="155" endX="580" endY="470.001587297588">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="270" height="24" topLeftX="610" topLeftY="155" type="text" id="bZw">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>六大功能模块</p>
+        </content>
+      </shape>
+      <shape width="270" height="270" topLeftX="610" topLeftY="190" type="text" id="bZK">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.85">
+          <p><strong><span color="rgba(37, 99, 235, 1)">01 数据总览</span></strong>　核心指标、环境感知、趋势图</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">02 智能检测</span></strong>　图片/视频上传、演示样本、实时摄像头</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">03 数据统计</span></strong>　检测趋势、类别分布、环境趋势</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">04 预警中心</span></strong>　四级预警、处置建议、撤销操作</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">05 农业知识库</span></strong>　6 类病害科普与防治方案</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">06 系统设置</span></strong>　检测参数、环境阈值、模型管理</p>
+        </content>
+      </shape>
+      <line id="bZC" startX="80" startY="480" endX="880.0006249997559" endY="480">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="30" topLeftX="80" topLeftY="486" type="text" id="bZF">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4">
+          <p><strong><span color="rgba(37, 99, 235, 1)">技术实现：</span></strong>Flask 后端 + 原生 HTML/CSS/JS 前端 + ECharts 可视化，单页应用（SPA）架构，左侧固定侧栏 + 顶部固定顶栏 + 主内容滚动区的三层式布局。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="515" type="text" id="bZP">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>16 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bZE">
+      <content>
+        <p>Web交互平台包含六大功能模块：数据总览展示核心指标和田间环境实时感知；智能检测支持图片视频上传、演示样本点击即测和实时摄像头检测；数据统计展示检测趋势和病害类别分布；预警中心按等级筛选预警信息并提供处置建议；农业知识库卡片式展示6类病害科普知识；系统设置支持检测参数和环境阈值配置。平台采用Flask后端加原生前端加ECharts可视化的单页应用架构。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSR">
+    <style>
+      <fill id="fSR">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="brK">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>05 · INTELLIGENT DETECTION</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="brm">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>智能检测：上传即测，多模态输入 + 检测框标注 + 防治建议</p>
+        </content>
+      </shape>
+      <line id="brE" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <img id="brI" src="NuiTbgmIvo40AfxQpqxcAU3EnTc" width="419.99999999999994" height="300" topLeftX="60" topLeftY="155">
+        <crop type="rect" leftOffset="50.75187969924809" rightOffset="50.75187969924815" topOffset="0" bottomOffset="0"/>
+      </img>
+      <line id="brJ" startX="500" startY="155" endX="500" endY="460.00163933985664">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="350" height="24" topLeftX="530" topLeftY="155" type="text" id="brt">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>检测流程（上传即测）</p>
+        </content>
+      </shape>
+      <shape width="350" height="44" topLeftX="530" topLeftY="190" presetHandlers="0" type="rect" id="brP">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="320" height="28" topLeftX="545" topLeftY="198" type="text" id="brO">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)">
+          <p><strong><span color="rgba(37, 99, 235, 1)">①</span></strong> 上传图片/视频 / 点击演示样本 / 开启实时摄像头</p>
+        </content>
+      </shape>
+      <line id="brS" startX="705" startY="238" endX="705" endY="250.04159457879229">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="sm" heightScale="sm"/>
+      </line>
+      <shape width="350" height="44" topLeftX="530" topLeftY="252" presetHandlers="0" type="rect" id="brn">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="320" height="28" topLeftX="545" topLeftY="260" type="text" id="bry">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)">
+          <p><strong><span color="rgba(37, 99, 235, 1)">②</span></strong> 后端自动触发 YOLO11n 推理（无需额外点击）</p>
+        </content>
+      </shape>
+      <line id="brC" startX="705" startY="300" endX="705" endY="312.0415945787923">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="sm" heightScale="sm"/>
+      </line>
+      <shape width="350" height="44" topLeftX="530" topLeftY="314" presetHandlers="0" type="rect" id="brc">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="320" height="28" topLeftX="545" topLeftY="322" type="text" id="brp">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)">
+          <p><strong><span color="rgba(37, 99, 235, 1)">③</span></strong> 返回标注图（检测框 + 类别 + 置信度）+ 目标列表</p>
+        </content>
+      </shape>
+      <line id="bro" startX="705" startY="362" endX="705" endY="374.0415945787923">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="sm" heightScale="sm"/>
+      </line>
+      <shape width="350" height="44" topLeftX="530" topLeftY="376" presetHandlers="0" type="rect" id="brV">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.08)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="320" height="28" topLeftX="545" topLeftY="384" type="text" id="brX">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(51, 65, 85, 1)">
+          <p><strong><span color="rgba(37, 99, 235, 1)">④</span></strong> 输出严重程度评级 + 农事建议 + 用药方案，写入历史</p>
+        </content>
+      </shape>
+      <line id="brF" startX="80" startY="475" endX="880.0006249997559" endY="475">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="30" topLeftX="80" topLeftY="485" type="text" id="brd">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.4">
+          <p><strong><span color="rgba(37, 99, 235, 1)">支持格式：</span></strong>图片 JPG/PNG/WEBP/BMP，视频 MP4/AVI/MOV/MKV（自动抽帧检测）。　<strong><span color="rgba(37, 99, 235, 1)">检测结果：</span></strong>JSON 格式返回，含类别（中英文）、置信度（0–1）、位置坐标、标注图 URL、防治建议。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="515" type="text" id="brz">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>17 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="brx">
+      <content>
+        <p>智能检测是系统的核心功能模块。支持三种输入方式：上传图片或视频、点击演示样本、开启实时摄像头。采用上传即测的交互设计，上传后自动触发后端YOLO11n推理，无需额外点击。检测结果包含带检测框、类别标签和置信度的标注图，以及目标列表、严重程度评级、农事建议和用药方案。支持图片JPG、PNG、WEBP、BMP和视频MP4、AVI等格式，视频自动抽帧检测。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSZ">
+    <style>
+      <fill id="fSZ">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="brT">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>07 · INNOVATION</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="bfN">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>创新点：检测-环境复合决策 + 全栈轻量化 + 端到端可交互平台</p>
+        </content>
+      </shape>
+      <line id="bfr" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="250" height="290" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="brw">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="250" height="36" topLeftX="80" topLeftY="190" type="text" id="brB">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="220" height="28" topLeftX="95" topLeftY="230" type="text" id="bfe">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>检测-环境复合决策</p>
+        </content>
+      </shape>
+      <shape width="220" height="180" topLeftX="95" topLeftY="270" type="text" id="bfZ">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.75" textAlign="left">
+          <p>突破传统单一图像检测的局限，将 YOLO 检测结果（目标数量、置信度、类别）与田间环境阈值（温湿度、光照、墒情）融合，构建规则引擎进行复合决策。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">核心机制：</span></strong>高湿（≥85%RH）环境下风险评分 +10，轻度预警自动上浮为中度，模拟真实农业中高湿诱发真菌病害的经验规律。</p>
+        </content>
+      </shape>
+      <shape width="250" height="290" topLeftX="355" topLeftY="175" presetHandlers="0" type="rect" id="bfU">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="250" height="36" topLeftX="355" topLeftY="190" type="text" id="brR">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="220" height="28" topLeftX="370" topLeftY="230" type="text" id="bfA">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>全栈轻量化设计</p>
+        </content>
+      </shape>
+      <shape width="220" height="180" topLeftX="370" topLeftY="270" type="text" id="bfD">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.75" textAlign="left">
+          <p>从模型到部署全链路贯彻轻量化理念，适配田间资源受限场景。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">模型层：</span></strong>YOLO11n nano 版本，仅约 6MB，参数量最小化。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">后端层：</span></strong>Flask 微框架 + SQLite 嵌入式数据库，无需重型中间件。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">部署层：</span></strong>RK3588 NPU INT8 量化推理，6 TOPS 算力，功耗 5–10W。</p>
+        </content>
+      </shape>
+      <shape width="250" height="290" topLeftX="630" topLeftY="175" presetHandlers="0" type="rect" id="bfu">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.04)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="250" height="36" topLeftX="630" topLeftY="190" type="text" id="brl">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="220" height="28" topLeftX="645" topLeftY="230" type="text" id="bfh">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>端到端可交互平台</p>
+        </content>
+      </shape>
+      <shape width="220" height="180" topLeftX="645" topLeftY="270" type="text" id="bfk">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.75" textAlign="left">
+          <p>构建从数据采集、模型推理、预警决策到知识科普的完整业务闭环，而非孤立的检测算法。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">六大模块：</span></strong>数据总览、智能检测、数据统计、预警中心、农业知识库、系统设置，覆盖完整用户旅程。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">多模态输入：</span></strong>图片上传、视频抽帧、演示样本、实时摄像头四种检测入口。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="bff">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>21 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="brv">
+      <content>
+        <p>本研究的主要创新点包括三个方面。第一，检测与环境复合决策机制，突破传统单一图像检测的局限，将YOLO检测结果与田间环境阈值融合构建规则引擎，核心机制是高湿环境下风险评分加10分，轻度预警自动上浮为中度。第二，全栈轻量化设计，从模型到部署全链路贯彻轻量化，YOLO11n模型仅6MB，Flask加SQLite轻量后端，RK3588 NPU量化推理。第三，端到端可交互平台，构建从数据采集到知识科普的完整业务闭环，六大功能模块覆盖完整用户旅程，支持四种多模态检测入口。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSt">
+    <style>
+      <fill id="fSt">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bfz">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>05 · ENVIRONMENT PERCEPTION</p>
+        </content>
+      </shape>
+      <shape width="860" height="44" topLeftX="80" topLeftY="82" type="text" id="bfH">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>田间环境感知：四类传感器实时采集，为预警决策提供环境上下文</p>
+        </content>
+      </shape>
+      <line id="bfQ" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="185" height="160" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="bfG">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="28" topLeftX="80" topLeftY="190" type="text" id="bfp">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>DHT22</p>
+        </content>
+      </shape>
+      <shape width="165" height="100" topLeftX="90" topLeftY="225" type="text" id="bfJ">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p><strong>温湿度传感器</strong></p>
+          <p>温度：-40 ~ 80℃</p>
+          <p>湿度：0 ~ 100% RH</p>
+          <p>精度：±0.5℃ / ±2%RH</p>
+          <p>单总线数字输出</p>
+        </content>
+      </shape>
+      <shape width="185" height="160" topLeftX="285" topLeftY="175" presetHandlers="0" type="rect" id="bfj">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="28" topLeftX="285" topLeftY="190" type="text" id="bfa">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>BH1750</p>
+        </content>
+      </shape>
+      <shape width="165" height="100" topLeftX="295" topLeftY="225" type="text" id="bfb">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p><strong>光照强度传感器</strong></p>
+          <p>范围：1 ~ 65535 lx</p>
+          <p>分辨率：1 lx</p>
+          <p>接近视觉光谱响应</p>
+          <p>I2C 数字接口</p>
+        </content>
+      </shape>
+      <shape width="185" height="160" topLeftX="490" topLeftY="175" presetHandlers="0" type="rect" id="bfO">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="28" topLeftX="490" topLeftY="190" type="text" id="bfI">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>电容式</p>
+        </content>
+      </shape>
+      <shape width="165" height="100" topLeftX="500" topLeftY="225" type="text" id="bfW">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p><strong>土壤墒情传感器</strong></p>
+          <p>测量土壤体积含水量</p>
+          <p>模拟量输出 0~3V</p>
+          <p>耐腐蚀探针设计</p>
+          <p>ADC 采样转换</p>
+        </content>
+      </shape>
+      <shape width="185" height="160" topLeftX="695" topLeftY="175" presetHandlers="0" type="rect" id="bfi">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.05)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185" height="28" topLeftX="695" topLeftY="190" type="text" id="bfL">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>USB 摄像头</p>
+        </content>
+      </shape>
+      <shape width="165" height="100" topLeftX="705" topLeftY="225" type="text" id="bfg">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p><strong>图像采集模块</strong></p>
+          <p>实时视频流采集</p>
+          <p>支持 MJPEG / H.264</p>
+          <p>OpenCV 帧提取</p>
+          <p>驱动实时检测推理</p>
+        </content>
+      </shape>
+      <line id="bfo" startX="80" startY="365" endX="880.0006249997559" endY="365">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="24" topLeftX="80" topLeftY="380" type="text" id="bfY">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>数据采集与传输流程</p>
+        </content>
+      </shape>
+      <shape width="800" height="80" topLeftX="80" topLeftY="415" type="text" id="bfq">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">传感器层 →</span></strong> DHT22 / BH1750 / 电容式墒情传感器通过 GPIO / I2C 接口连接边缘计算板，每 10 秒采集一次环境数据。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">边缘层 →</span></strong> RK3588 开发板读取传感器原始数据，经 ADC 转换和单位换算后，通过 HTTP POST 上报至 Flask 后端，写入 SQLite 数据库。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">平台层 →</span></strong> 后端对环境数据进行阈值判定（温度≥35℃、湿度≥85%、墒情≤20%、光照≤500lx），越限数据触发预警规则引擎。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="bfs">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>19 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bfM">
+      <content>
+        <p>田间环境感知层采用四类传感器：DHT22温湿度传感器测量温度和相对湿度，BH1750光照强度传感器测量光照，电容式土壤墒情传感器测量土壤含水量，USB摄像头负责图像采集。传感器通过GPIO和I2C接口连接RK3588边缘计算板，每10秒采集一次数据，经HTTP POST上报至Flask后端写入SQLite数据库。后端对环境数据进行阈值判定，越限数据触发预警规则引擎，为复合决策提供环境上下文。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSH">
+    <style>
+      <fill id="fSH">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bus">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>06 · EDGE DEPLOYMENT</p>
+        </content>
+      </shape>
+      <shape width="860" height="44" topLeftX="80" topLeftY="82" type="text" id="bug">
+        <content textType="title" fontSize="26" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>边缘部署：RK3588 NPU 加速，PyTorch → ONNX → RKNN 三阶段转换</p>
+        </content>
+      </shape>
+      <line id="buS" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="220" height="140" topLeftX="80" topLeftY="180" presetHandlers="0" type="rect" id="bux">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.06)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="28" topLeftX="80" topLeftY="195" type="text" id="bui">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>阶段一：训练导出</p>
+        </content>
+      </shape>
+      <shape width="190" height="85" topLeftX="95" topLeftY="230" type="text" id="buL">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p>YOLO11n PyTorch 模型</p>
+          <p>best.pt（~6MB）</p>
+          <p>Ultralytics export 接口</p>
+          <p>导出为 ONNX 格式</p>
+          <p>opset=12，动态 batch</p>
+        </content>
+      </shape>
+      <line id="buO" startX="306" startY="250" endX="350.01136216933077" endY="250">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="220" height="140" topLeftX="358" topLeftY="180" presetHandlers="0" type="rect" id="buo">
+        <fill>
+          <fillColor color="rgba(14, 165, 233, 0.06)"/>
+        </fill>
+        <border color="rgba(14, 165, 233, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="28" topLeftX="358" topLeftY="195" type="text" id="buV">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(14, 165, 233, 1)" bold="true" textAlign="center">
+          <p>阶段二：模型转换</p>
+        </content>
+      </shape>
+      <shape width="190" height="85" topLeftX="373" topLeftY="230" type="text" id="bun">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p>RKNN-Toolkit2 转换工具</p>
+          <p>ONNX → RKNN 量化</p>
+          <p>INT8 不对称量化</p>
+          <p>校准数据集 100 张</p>
+          <p>生成 best.rknn 模型</p>
+        </content>
+      </shape>
+      <line id="buj" startX="584" startY="250" endX="628.0113621693308" endY="250">
+        <border color="rgba(37, 99, 235, 1)"/>
+        <endArrow type="arrow" widthScale="med" heightScale="med"/>
+      </line>
+      <shape width="244" height="140" topLeftX="636" topLeftY="180" presetHandlers="0" type="rect" id="bua">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.08)"/>
+        </fill>
+        <border color="rgba(37, 99, 235, 1)"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="244" height="28" topLeftX="636" topLeftY="195" type="text" id="bub">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" textAlign="center">
+          <p>阶段三：边缘推理</p>
+        </content>
+      </shape>
+      <shape width="216" height="85" topLeftX="650" topLeftY="230" type="text" id="bup">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7" textAlign="center">
+          <p>RK3588（香橙派 5）NPU</p>
+          <p>6 TOPS INT8 算力</p>
+          <p>RKNN Runtime API 推理</p>
+          <p>预期延迟 &lt; 100ms/帧</p>
+          <p>支持实时视频流检测</p>
+        </content>
+      </shape>
+      <line id="buI" startX="80" startY="350" endX="880.0006249997559" endY="350">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="380" height="24" topLeftX="80" topLeftY="365" type="text" id="buy">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>RK3588 硬件规格</p>
+        </content>
+      </shape>
+      <shape width="380" height="100" topLeftX="80" topLeftY="400" type="text" id="buQ">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">CPU：</span></strong>8 核（4×A76 + 4×A55），最高 2.4GHz</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">NPU：</span></strong>6 TOPS（INT8），支持 INT8/INT16/FP16</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">GPU：</span></strong>Mali-G610 MP4，支持 OpenCL</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">内存：</span></strong>8GB LPDDR4X，存储 64GB eMMC</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">接口：</span></strong>USB 3.0 × 4、GPIO、I2C、SPI、以太网</p>
+        </content>
+      </shape>
+      <line id="buG" startX="480.00000000000006" startY="365" endX="480.00000000000006" endY="505.0035713830186">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="370" height="24" topLeftX="510" topLeftY="365" type="text" id="buM">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>部署优势</p>
+        </content>
+      </shape>
+      <shape width="370" height="100" topLeftX="510" topLeftY="400" type="text" id="buz">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(37, 99, 235, 1)">低延迟：</span></strong>NPU 硬件加速，推理延迟远低于 CPU 方案</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">低功耗：</span></strong>整机功耗约 5–10W，适合田间长期部署</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">本地化：</span></strong>数据无需上传云端，保护农业数据隐私</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">可扩展：</span></strong>支持多摄像头接入，可扩展至多田块监测</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">低成本：</span></strong>单板价格约 500–800 元，部署门槛低</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="buJ">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>20 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="buq">
+      <content>
+        <p>边缘部署采用三阶段转换流程。阶段一，将训练好的YOLO11n PyTorch模型best.pt通过Ultralytics export接口导出为ONNX格式。阶段二，使用RKNN-Toolkit2转换工具将ONNX模型量化为RKNN格式，采用INT8不对称量化，使用100张校准数据集，生成best.rknn模型。阶段三，在RK3588香橙派5开发板上通过RKNN Runtime API调用NPU进行推理，6TOPS INT8算力，预期延迟低于100毫秒每帧，支持实时视频流检测。RK3588具有低延迟、低功耗、本地化、可扩展、低成本等部署优势。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSo">
+    <style>
+      <fill id="fSo">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="bfK">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>07 · LIMITATIONS</p>
+        </content>
+      </shape>
+      <shape width="860" height="44" topLeftX="80" topLeftY="82" type="text" id="bfm">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>存在不足：数据集规模有限、部分类别识别率低、边缘部署待验证</p>
+        </content>
+      </shape>
+      <line id="bfE" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="380" height="140" topLeftX="80" topLeftY="175" presetHandlers="0" type="rect" id="bfn">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.03)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="100" topLeftY="190" type="text" id="bft">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>01 · 数据集规模与多样性不足</p>
+        </content>
+      </shape>
+      <shape width="340" height="80" topLeftX="100" topLeftY="222" type="text" id="bfP">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>训练集仅约 2000 张图像，6 类病害样本分布不均，玉米叶锈病和颈瘟样本量偏少。图像来源相对单一，缺乏不同光照、角度、生长阶段的多样化样本，导致模型泛化能力受限。</p>
+        </content>
+      </shape>
+      <shape width="380" height="140" topLeftX="500" topLeftY="175" presetHandlers="0" type="rect" id="bfw">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.03)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="520" topLeftY="190" type="text" id="bfy">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>02 · 部分类别识别精度偏低</p>
+        </content>
+      </shape>
+      <shape width="340" height="80" topLeftX="520" topLeftY="222" type="text" id="bfC">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>玉米叶锈病（mAP=0.208）和颈瘟（mAP=0.267）识别率显著低于其他类别。混淆矩阵显示大量目标被误判为背景，整体召回率仅 0.452。早期病害特征细微，与健康叶片区分度低。</p>
+        </content>
+      </shape>
+      <shape width="380" height="140" topLeftX="80" topLeftY="335" presetHandlers="0" type="rect" id="bfc">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.03)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="100" topLeftY="350" type="text" id="bfv">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>03 · 边缘部署尚未实地验证</p>
+        </content>
+      </shape>
+      <shape width="340" height="80" topLeftX="100" topLeftY="382" type="text" id="bfS">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>RK3588 边缘部署方案处于设计与转换阶段，RKNN 量化后的精度损失、实际推理延迟、田间长期运行稳定性均未经过实地测试。传感器数据采集与上报链路尚未在真实田间环境验证。</p>
+        </content>
+      </shape>
+      <shape width="380" height="140" topLeftX="500" topLeftY="335" presetHandlers="0" type="rect" id="bfV">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 0.03)"/>
+        </fill>
+        <border color="rgba(203, 213, 225, 1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="520" topLeftY="350" type="text" id="bfX">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>04 · 防治建议知识库覆盖有限</p>
+        </content>
+      </shape>
+      <shape width="340" height="80" topLeftX="520" topLeftY="382" type="text" id="bfF">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.7">
+          <p>当前知识库仅覆盖 6 类病害的基础防治方案，缺乏不同地域、气候、作物品种的差异化建议。用药方案未结合农药残留标准和安全间隔期，防治建议的专业性和时效性有待提升。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="bfd">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>22 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bfx">
+      <content>
+        <p>本研究存在四方面不足。第一，数据集规模与多样性不足，训练集约2000张图像，6类病害样本分布不均，缺乏不同光照角度和生长阶段的多样化样本。第二，部分类别识别精度偏低，玉米叶锈病mAP仅0.208，颈瘟0.267，大量目标被误判为背景，整体召回率0.452。第三，边缘部署尚未实地验证，RK3588方案处于设计阶段，量化精度损失和实际延迟未测试。第四，防治建议知识库覆盖有限，仅6类病害基础方案，缺乏地域差异化建议和农药残留标准。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSY">
+    <style>
+      <fill id="fSY">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="buA">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>07 · FUTURE WORK</p>
+        </content>
+      </shape>
+      <shape width="800" height="44" topLeftX="80" topLeftY="82" type="text" id="buD">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>未来展望：扩充数据集、优化模型、实地部署、构建知识图谱</p>
+        </content>
+      </shape>
+      <line id="buu" startX="80" startY="138" endX="160.00624975587843" endY="138">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <line id="buY" startX="119.99999999999997" startY="180" endX="120.00000000000001" endY="470.0017241328058">
+        <border color="rgba(37, 99, 235, 1)"/>
+      </line>
+      <shape width="24" height="24" topLeftX="108" topLeftY="175" type="ellipse" id="bfB">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="700" height="28" topLeftX="160" topLeftY="172" type="text" id="bue">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>数据集扩充与增强</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="160" topLeftY="202" type="text" id="buZ">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>采集更多田间真实图像，目标扩充至 10000+ 张，重点补充玉米叶锈病、颈瘟等弱势类别。引入不同光照、天气、生长阶段的多样化样本，使用 GAN 合成增强少数类样本，缓解类别不平衡。</p>
+        </content>
+      </shape>
+      <shape width="24" height="24" topLeftX="108" topLeftY="268" type="ellipse" id="buU">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="700" height="28" topLeftX="160" topLeftY="265" type="text" id="buW">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>模型优化与精度提升</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="160" topLeftY="295" type="text" id="bfT">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>尝试 YOLO11s/m 等更大模型以提升精度，探索注意力机制（CBAM、SE）和多尺度特征融合。针对小目标病斑检测优化锚框设计，引入难例挖掘（Hard Example Mining）提升召回率。对比 Transformer-based 检测器（DETR 系列）。</p>
+        </content>
+      </shape>
+      <shape width="24" height="24" topLeftX="108" topLeftY="361" type="ellipse" id="buN">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="700" height="28" topLeftX="160" topLeftY="358" type="text" id="bur">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>边缘部署实地验证</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="160" topLeftY="388" type="text" id="buH">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.6">
+          <p>完成 RK3588 实地部署测试，量化评估 INT8 精度损失，优化推理流水线实现多线程并发。设计田间防护外壳和太阳能供电方案，进行长期稳定性测试。探索 5G/LoRa 无线传输方案，实现多田块分布式监测。</p>
+        </content>
+      </shape>
+      <shape width="24" height="24" topLeftX="108" topLeftY="454" type="ellipse" id="bfl">
+        <fill>
+          <fillColor color="rgba(37, 99, 235, 1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="700" height="28" topLeftX="160" topLeftY="451" type="text" id="buh">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+          <p>知识图谱与精准防治</p>
+        </content>
+      </shape>
+      <shape width="700" height="35" topLeftX="160" topLeftY="481" type="text" id="buk">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)">
+          <p>构建病虫害-农药-作物知识图谱，结合地域气象数据提供差异化精准防治方案。引入大语言模型（LLM）实现自然语言交互问答，提升系统智能化和易用性。</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="515" type="text" id="buf">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>23 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bfR">
+      <content>
+        <p>未来工作包括四个方向。第一，数据集扩充与增强，采集更多田间真实图像，目标扩充至10000张以上，重点补充弱势类别，引入多样化样本和GAN合成增强。第二，模型优化与精度提升，尝试更大模型，探索注意力机制和多尺度特征融合，针对小目标优化锚框，引入难例挖掘。第三，边缘部署实地验证，完成RK3588实地部署测试，评估量化精度损失，设计田间防护和供电方案，探索无线传输。第四，知识图谱与精准防治，构建病虫害农药作物知识图谱，结合地域气象数据提供差异化方案，引入大语言模型实现自然语言交互。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pSn">
+    <style>
+      <fill id="fSn">
+        <fillColor color="rgba(255, 255, 255, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text" id="buc">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+          <p>08 · SUMMARY</p>
+        </content>
+      </shape>
+      <shape width="800" height="60" topLeftX="80" topLeftY="100" type="text" id="bud">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>感谢聆听，敬请批评指正</p>
+        </content>
+      </shape>
+      <line id="buw" startX="400" startY="175" endX="560.003124969483" endY="175">
+        <border color="rgba(37, 99, 235, 1)" width="3"/>
+      </line>
+      <shape width="800" height="28" topLeftX="80" topLeftY="200" type="text" id="buK">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" textAlign="center">
+          <p>基于图像识别的大田农作物病虫害智能检测与预警系统</p>
+        </content>
+      </shape>
+      <line id="buC" startX="80" startY="260" endX="880.0006249997559" endY="260">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="24" topLeftX="80" topLeftY="280" type="text" id="buF">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true" textAlign="center">
+          <p>研究总结</p>
+        </content>
+      </shape>
+      <shape width="720" height="140" topLeftX="120" topLeftY="315" type="text" id="buP">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(71, 85, 105, 1)" lineSpacing="multiple:1.9" textAlign="left">
+          <p><strong><span color="rgba(37, 99, 235, 1)">模型层面：</span></strong>基于 YOLO11n 构建 6 类水稻玉米病害检测模型，mAP@0.5 = 0.453，最佳 F1 = 0.48，模型仅 6MB，CPU 推理约 0.5 秒/张。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">系统层面：</span></strong>设计感知-研判-预警-防控四层架构，Flask + SQLite 后端，原生前端 + ECharts 可视化，六大功能模块覆盖完整业务链路。</p>
+          <p><strong><span color="rgba(37, 99, 235, 1)">创新层面：</span></strong>提出&quot;检测结果 + 环境阈值&quot;复合决策规则引擎，高湿风险放大机制，全栈轻量化设计，RK3588 边缘部署方案。</p>
+        </content>
+      </shape>
+      <line id="buE" startX="80" startY="455" endX="880.0006249997559" endY="455">
+        <border color="rgba(226, 232, 240, 1)" width="1"/>
+      </line>
+      <shape width="800" height="24" topLeftX="80" topLeftY="470" type="text" id="buX">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" textAlign="center">
+          <p>Q &amp; A　·　欢迎提问与交流</p>
+        </content>
+      </shape>
+      <shape width="60" height="20" topLeftX="820" topLeftY="510" type="text" id="but">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+          <p>24 / 24</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bum">
+      <content>
+        <p>感谢各位老师和同学的聆听。本研究基于YOLO11n构建了6类水稻玉米病害检测模型，mAP@0.5达到0.453，模型仅6MB。设计了感知研判预警防控四层架构的完整系统，包含六大功能模块。提出了检测结果加环境阈值的复合决策规则引擎和高湿风险放大机制。未来将继续扩充数据集、优化模型精度、完成边缘部署实地验证。欢迎各位老师批评指正，谢谢！</p>
+      </content>
+    </note>
+  </slide>
+</presentation>

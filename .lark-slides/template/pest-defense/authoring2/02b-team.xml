@@ -1,0 +1,112 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(248, 250, 248, 1)"/>
+    </fill>
+  </style>
+  <data>
+    <!-- 左上角章节标签 -->
+    <shape type="rect" topLeftX="32" topLeftY="28" width="140" height="28" presetHandlers="4">
+      <fill>
+        <fillColor color="rgba(0, 176, 80, 1)"/>
+      </fill>
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,255,255,1)" textAlign="center" verticalAlign="middle">
+        <p>团队成员</p>
+      </content>
+    </shape>
+    <!-- 标题 -->
+    <shape type="text" topLeftX="32" topLeftY="68" width="500" height="50">
+      <content textType="headline" fontSize="32" fontFamily="思源宋体 CN Heavy" color="rgba(38, 38, 38, 1)" textAlign="left" verticalAlign="middle">
+        <p>项目团队与分工</p>
+      </content>
+    </shape>
+    <!-- 装饰线 -->
+    <line startX="32" startY="125" endX="200" endY="125">
+      <border color="rgba(0, 176, 80, 1)" width="3"/>
+    </line>
+
+    <!-- 成员1 -->
+    <shape type="ellipse" topLeftX="100" topLeftY="165" width="100" height="100">
+      <fill>
+        <fillColor color="rgba(230, 240, 230, 1)"/>
+      </fill>
+      <border color="rgba(0, 176, 80, 1)" width="2"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="195" width="100" height="40">
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(180, 200, 180, 1)" textAlign="center" verticalAlign="middle">
+        <p>?</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="70" topLeftY="280" width="160" height="30">
+      <content fontSize="18" fontFamily="思源宋体 CN Heavy" color="rgba(38, 38, 38, 1)" textAlign="center" verticalAlign="middle">
+        <p>[成员一姓名]</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="70" topLeftY="312" width="160" height="50">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(100, 120, 100, 1)" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.4">
+        <p>项目负责人 / 算法模型</p>
+        <p>YOLO11n训练与调优</p>
+      </content>
+    </shape>
+
+    <!-- 成员2 -->
+    <shape type="ellipse" topLeftX="310" topLeftY="165" width="100" height="100">
+      <fill>
+        <fillColor color="rgba(230, 240, 230, 1)"/>
+      </fill>
+      <border color="rgba(0, 176, 80, 1)" width="2"/>
+    </shape>
+    <shape type="text" topLeftX="310" topLeftY="195" width="100" height="40">
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(180, 200, 180, 1)" textAlign="center" verticalAlign="middle">
+        <p>?</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="280" topLeftY="280" width="160" height="30">
+      <content fontSize="18" fontFamily="思源宋体 CN Heavy" color="rgba(38, 38, 38, 1)" textAlign="center" verticalAlign="middle">
+        <p>[成员二姓名]</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="280" topLeftY="312" width="160" height="50">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(100, 120, 100, 1)" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.4">
+        <p>后端开发 / 规则引擎</p>
+        <p>Flask服务与预警系统</p>
+      </content>
+    </shape>
+
+    <!-- 成员3 -->
+    <shape type="ellipse" topLeftX="520" topLeftY="165" width="100" height="100">
+      <fill>
+        <fillColor color="rgba(230, 240, 230, 1)"/>
+      </fill>
+      <border color="rgba(0, 176, 80, 1)" width="2"/>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="195" width="100" height="40">
+      <content fontSize="28" fontFamily="思源黑体" color="rgba(180, 200, 180, 1)" textAlign="center" verticalAlign="middle">
+        <p>?</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="490" topLeftY="280" width="160" height="30">
+      <content fontSize="18" fontFamily="思源宋体 CN Heavy" color="rgba(38, 38, 38, 1)" textAlign="center" verticalAlign="middle">
+        <p>[成员三姓名]</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="490" topLeftY="312" width="160" height="50">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(100, 120, 100, 1)" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.4">
+        <p>前端开发 / 数据可视化</p>
+        <p>Web平台与ECharts图表</p>
+      </content>
+    </shape>
+
+    <!-- 底部说明 -->
+    <shape type="text" topLeftX="32" topLeftY="370" width="656" height="25">
+      <content fontSize="11" fontFamily="思源黑体" color="rgba(150, 170, 150, 1)" textAlign="center" verticalAlign="middle">
+        <p>基于图像识别的大田农作物病虫害智能检测与预警系统 · 人工智能竞赛答辩</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content>
+      <p>本页展示项目团队的三位成员及其分工。成员一负责算法模型，包括YOLO11n的训练与调优；成员二负责后端开发，包括Flask服务和规则引擎预警系统；成员三负责前端开发，包括Web平台和ECharts数据可视化。请根据实际团队成员信息替换占位符。</p>
+    </content>
+  </note>
+</slide>

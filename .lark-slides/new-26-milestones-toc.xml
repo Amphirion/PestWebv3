@@ -1,0 +1,65 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)"/>
+    </fill>
+  </style>
+  <data>
+    <shape width="300" height="24" topLeftX="80" topLeftY="56" type="text">
+      <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(37, 99, 235, 1)" bold="true" letterSpacing="2">
+        <p>09 · MILESTONES</p>
+      </content>
+    </shape>
+    <shape width="600" height="44" topLeftX="80" topLeftY="82" type="text">
+      <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p>项目历程</p>
+      </content>
+    </shape>
+    <line startX="80" startY="138" endX="160.00624975587843" endY="138">
+      <border color="rgba(37, 99, 235, 1)" width="3"/>
+    </line>
+    <shape width="380" height="50" topLeftX="80" topLeftY="180" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">01</span>　赛题解析与需求分析</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="80" topLeftY="232" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">02</span>　数据采集与标注</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="80" topLeftY="284" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">03</span>　模型训练与平台开发</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="500" topLeftY="180" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">04</span>　UI 微调与打磨</p>
+      </content>
+    </shape>
+    <shape width="380" height="50" topLeftX="500" topLeftY="232" type="text">
+      <content fontSize="17" fontFamily="思源黑体" color="rgba(15, 23, 42, 1)" bold="true">
+        <p><span color="rgba(37, 99, 235, 1)">05</span>　文档撰写与答辩准备</p>
+      </content>
+    </shape>
+    <line startX="80" startY="370" endX="880.0006249997559" endY="370">
+      <border color="rgba(226, 232, 240, 1)" width="1"/>
+    </line>
+    <shape width="800" height="80" topLeftX="80" topLeftY="395" type="text">
+      <content fontSize="14" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" lineSpacing="multiple:1.7">
+        <p>项目自赛题发布起历经五个阶段：先完成赛题解析与需求分析，再自建数据集并标注；随后完成 YOLO11n 模型训练与 Web 平台开发，经过多轮 UI 微调打磨后，最终输出设计文档、论文与答辩材料。</p>
+      </content>
+    </shape>
+    <shape width="60" height="20" topLeftX="820" topLeftY="500" type="text">
+      <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="right">
+        <p>26 / 28</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content>
+      <p>这一页介绍项目的开发历程。项目分为五个阶段：赛题解析与需求分析、数据采集与标注、模型训练与平台开发、UI微调与打磨、文档撰写与答辩准备。五个阶段环环相扣，从需求出发，以数据为基础，以模型为核心，以平台为载体，最终形成完整的交付物。</p>
+    </content>
+  </note>
+</slide>

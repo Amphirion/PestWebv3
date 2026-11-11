@@ -1,0 +1,65 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plV">
+    <style>
+      <fill id="flV">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <img id="bOB" src="KItlbKUabovZ5YxwRLQcBpQCn5g" width="720" height="405" topLeftX="0" topLeftY="0">
+        <crop leftOffset="0" rightOffset="0" topOffset="0" bottomOffset="0" />
+      </img>
+      <shape width="117.49370078740158" height="55.73905511811024" topLeftX="32.30456692913386" topLeftY="69.6648031496063" type="text" id="bOd">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="40" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">目录：</span></p>
+        </content>
+      </shape>
+      <shape width="221.29370078740158" height="19.993385826771654" topLeftX="32.30456692913384" topLeftY="47.648818897637796" type="text" id="bOf">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">SMART AGRICULTURE</span></p>
+        </content>
+      </shape>
+      <shape width="202.70173228346457" height="50.46543307086614" topLeftX="149.7982677165354" topLeftY="143.51204724409448" presetHandlers="8.411074" type="round-rect" id="bOx">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(38, 38, 38, 1)" fontSize="28" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false">01.研究背景与目标</span></p>
+        </content>
+      </shape>
+      <shape width="202.70173228346457" height="50.46543307086614" topLeftX="149.7982677165354" topLeftY="227.45740157480316" presetHandlers="8.411074" type="round-rect" id="bOa">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(38, 38, 38, 1)" fontSize="28" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false">03.实验结果与分析</span></p>
+        </content>
+      </shape>
+      <shape width="202.70173228346457" height="50.46543307086614" topLeftX="400.94740157480317" topLeftY="143.51204724409448" presetHandlers="8.411074" type="round-rect" id="bOY">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(38, 38, 38, 1)" fontSize="28" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false">02.系统设计与方法</span></p>
+        </content>
+      </shape>
+      <shape width="202.70173228346457" height="50.46543307086614" topLeftX="400.94740157480317" topLeftY="227.45740157480316" presetHandlers="8.411074" type="round-rect" id="bOc">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(38, 38, 38, 1)" fontSize="28" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false">04.系统实现与展望</span></p>
+        </content>
+      </shape>
+      <shape width="35.72047244094488" height="9.3251968503937" topLeftX="0" topLeftY="0" type="text" id="bOt">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:2.4"><span fontSize="1" fontFamily="微软雅黑" bold="false" italic="false" strikethrough="false" underline="false"></span><span color="rgba(20, 86, 240, 1)" fontSize="1" fontFamily="微软雅黑" bold="false" italic="false" strikethrough="false" underline="false"></span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bOG">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="use-iframe" content="true">
+<meta name="html-box-height-mode" content="auto">
+<meta name="description" content="智农·慧眼页面布局结构：背景层、侧边导航、顶部栏、内容滚动区与玻璃层级">
+<title>页面布局结构</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Inter","PingFang SC","Microsoft YaHei",sans-serif;
+         background: #071520; color: #eaf7f3; padding: 24px; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  .h { font-size: 17px; font-weight: 700; letter-spacing: .5px; margin-bottom: 4px; }
+  .sub { font-size: 12px; color: #9fc8c0; margin-bottom: 18px; }
+  /* 舞台 */
+  .stage { position: relative; height: 430px; border-radius: 18px; overflow: hidden;
+           background: linear-gradient(160deg,#3f7a5e 0%,#2c5d4a 40%,#14344a 100%); }
+  .bg-field { position: absolute; inset: 0;
+              background: linear-gradient(160deg,#4e9a6e,#2c6b4f 45%,#163c52);
+              opacity: .85; }
+  .vignette { position: absolute; inset: 0;
+              background: linear-gradient(105deg,rgba(3,11,17,.60),rgba(3,11,17,.40) 40%,rgba(3,11,17,.24) 78%,rgba(3,11,17,.50));
+              border-radius: 18px; }
+  /* 侧栏 */
+  .sidebar { position: absolute; left: 14px; top: 14px; bottom: 14px; width: 172px;
+             background: rgba(255,255,255,.11); border: 1px solid rgba(255,255,255,.18);
+             border-radius: 20px; backdrop-filter: blur(24px); z-index: 40;
+             display: flex; flex-direction: column; padding: 12px; gap: 6px; }
+  .logo { height: 34px; border-radius: 10px; background: linear-gradient(135deg,#34d399,#0ea5e9);
+          display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#04121b; }
+  .navi { height: 26px; border-radius: 9px; background: rgba(255,255,255,.09); }
+  .navi.on { background: linear-gradient(135deg,rgba(74,222,128,.42),rgba(56,189,248,.4)); }
+  .navi.cta { height: 34px; margin-top: 8px; background: linear-gradient(135deg,rgba(74,222,128,.5),rgba(56,189,248,.46)); }
+  /* 顶栏 */
+  .header { position: absolute; left: calc(14px + 172px + 16px); right: 14px; top: 14px; height: 54px;
+            background: rgba(255,255,255,.11); border: 1px solid rgba(255,255,255,.18);
+            border-radius: 16px; backdrop-filter: blur(24px); z-index: 30;
+            display: flex; align-items: center; justify-content: space-between; padding: 0 16px; }
+  .hleft { display:flex; flex-direction:column; gap:3px; }
+  .htitle { width: 130px; height: 12px; border-radius: 6px; background: rgba(255,255,255,.75); }
+  .hsub { width: 190px; height: 8px; border-radius: 5px; background: rgba(255,255,255,.3); }
+  .hchips { display:flex; gap:8px; }
+  .chip { height: 26px; width: 64px; border-radius: 999px; background: rgba(255,255,255,.13);
+          border:1px solid rgba(255,255,255,.16); }
+  /* 内容区 */
+  .content { position: absolute; left: calc(14px + 172px + 16px); right: 14px;
+             top: 14px + 54px + 14px; bottom: 14px; border-radius: 16px;
+             display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: repeat(4,1fr); gap: 10px; }
+  .card { border-radius: 14px; background: rgba(255,255,255,.05);
+          border: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(7px);
+          padding: 10px; }
+  .card .bar { height: 8px; border-radius: 4px; background: rgba(255,255,255,.18); margin-bottom: 8px; }
+  .card .bar.g { width: 60%; background: linear-gradient(90deg,#4ade80,#38bdf8); }
+  .card.s2 { grid-column: span 2; }
+  .card.s2x { grid-column: span 3; }
+  /* 标注 */
+  .dim { position: absolute; font-size: 11px; color: #bfe8de; z-index: 60;
+         background: rgba(3,11,17,.55); padding: 2px 8px; border-radius: 8px; white-space: nowrap; }
+  .d-sidebar { left: 8px; top: 50%; transform: translateY(-50%); }
+  .d-main { left: 50%; top: 4px; transform: translateX(-50%); }
+  .d-glass { left: 50%; bottom: 6px; transform: translateX(-50%); }
+  .legend { margin-top: 16px; display: flex; gap: 14px; flex-wrap: wrap; font-size: 11.5px; color: #9fc8c0; }
+  .legend i { display:inline-block; width: 12px; height: 12px; border-radius: 4px; margin-right: 5px; vertical-align: -1px; }
+  .foot { margin-top: 14px; font-size: 11px; color: #6f968d; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="h">页面布局结构 · 三层纵向信息架构</div>
+  <div class="sub">背景层 → 玻璃面板层（侧栏 / 顶栏 / 内容卡片）→ 交互层</div>
+
+  <div class="stage">
+    <div class="bg-field"></div>
+    <div class="vignette"></div>
+
+    <div class="sidebar">
+      <div class="logo">智农·慧眼</div>
+      <div class="navi on"></div>
+      <div class="navi"></div>
+      <div class="navi"></div>
+      <div class="navi"></div>
+      <div class="navi"></div>
+      <div class="navi cta"></div>
+    </div>
+
+    <div class="header">
+      <div class="hleft"><div class="htitle"></div><div class="hsub"></div></div>
+      <div class="hchips"><div class="chip"></div><div class="chip"></div><div class="chip"></div></div>
+    </div>
+
+    <div class="content">
+      <div class="card"><div class="bar g"></div><div class="bar"></div><div class="bar" style="width:40%"></div></div>
+      <div class="card"><div class="bar g"></div><div class="bar"></div><div class="bar" style="width:55%"></div></div>
+      <div class="card"><div class="bar g"></div><div class="bar"></div><div class="bar" style="width:35%"></div></div>
+      <div class="card s2"><div class="bar g" style="width:45%"></div><div class="bar" style="width:80%"></div><div class="bar" style="width:65%"></div></div>
+      <div class="card"><div class="bar g"></div><div class="bar"></div><div class="bar" style="width:48%"></div></div>
+      <div class="card"><div class="bar g"></div><div class="bar"></div><div class="bar" style="width:50%"></div></div>
+      <div class="card s2x"><div class="bar g" style="width:30%"></div><div class="bar" style="width:90%"></div><div class="bar" style="width:72%"></div></div>
+    </div>
+
+    <div class="dim d-sidebar">侧栏 236px · blur(24px)</div>
+    <div class="dim d-main">顶栏 84px · blur(24px)</div>
+    <div class="dim d-glass">内容卡片 blur(7px) · 白填充 .04</div>
+  </div>
+
+  <div class="legend">
+    <span><i style="background:linear-gradient(135deg,#34d399,#0ea5e9)"></i>主色渐变（品牌/焦点）</span>
+    <span><i style="background:rgba(255,255,255,.13)"></i>重玻璃（侧栏/顶栏）</span>
+    <span><i style="background:rgba(255,255,255,.05)"></i>轻玻璃（内容卡片）</span>
+    <span><i style="background:rgba(3,11,17,.5)"></i>暗角遮罩</span>
+  </div>
+
+  <div class="foot">注：结构参数取自 index.html 骨架与 main.css 布局令牌：侧栏 --sidebar-w:236px，顶栏 --header-h:84px，主区左侧偏移 34px；半径体系 26/24/22/18/16px 形成柔和层叠。</div>
+</div>
+</body>
+</html>

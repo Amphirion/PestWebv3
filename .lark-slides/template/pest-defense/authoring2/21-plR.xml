@@ -1,0 +1,125 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plR">
+    <style>
+      <fill id="flR">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="173.93007874015748" height="173.93007874015748" topLeftX="78.65614173228344" topLeftY="134.12251968503938" type="ellipse" id="bLd">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="232.32944881889765" height="232.32944881889765" topLeftX="49.07944881889763" topLeftY="104.92283464566928" type="ellipse" id="bLx">
+        <fill>
+          <fillColor color="rgba(242, 242, 242, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="164.88464566929133" height="164.88464566929133" topLeftX="82.80181102362207" topLeftY="138.6451968503937" type="ellipse" id="bLa">
+        <fill>
+          <fillImg src="SHF3bakKPoxBE3xNVKdcuXfunYd" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <border color="rgba(0, 128, 0, 1)" width="4" miterLimit="10" />
+        <content verticalAlign="top" paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="88.31897637795275" height="26.521496062992124" topLeftX="289.45307086614173" topLeftY="142.61779527559054" type="text" id="bLN">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测流程</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="164.51795275590553" height="45.43944881889764" topLeftX="306.58551181102365" topLeftY="169.82724409448818" type="text" id="bLY">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">四步流程：输入采集→自动推理→结果处理→输出展示。Flask后端接收文件保存至临时目录，自动触发YOLO11n推理。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31897637795275" height="26.521496062992124" topLeftX="289.45307086614173" topLeftY="241.92826771653543" type="text" id="bLG">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测流程</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="164.51795275590553" height="45.43944881889764" topLeftX="306.58551181102365" topLeftY="269.13771653543307" type="text" id="bLS">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">四步流程：输入采集→自动推理→结果处理→输出展示。Flask后端接收文件保存至临时目录，自动触发YOLO11n推理。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31897637795275" height="26.521496062992124" topLeftX="502.9703937007874" topLeftY="142.61779527559054" type="text" id="bLq">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测流程</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="164.51795275590553" height="45.43944881889764" topLeftX="520.1028346456693" topLeftY="169.82724409448818" type="text" id="bLT">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">四步流程：输入采集→自动推理→结果处理→输出展示。Flask后端接收文件保存至临时目录，自动触发YOLO11n推理。</span></p>
+        </content>
+      </shape>
+      <shape width="88.31897637795275" height="26.521496062992124" topLeftX="502.9703937007874" topLeftY="241.92826771653543" type="text" id="bLf">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <ul listStyle="pptx-bullet">
+            <li>
+              <p textAlign="justify" lineSpacing="multiple:1.8" marginLeft="16.88" indent="-16.88"><span color="rgba(0, 128, 0, 1)" fontSize="12" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">检测流程</span></p>
+            </li>
+          </ul>
+        </content>
+      </shape>
+      <shape width="164.51795275590553" height="45.43944881889764" topLeftX="520.1028346456693" topLeftY="269.13771653543307" type="text" id="bLt">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">四步流程：输入采集→自动推理→结果处理→输出展示。Flask后端接收文件保存至临时目录，自动触发YOLO11n推理。</span></p>
+        </content>
+      </shape>
+      <line id="bLF" startX="296.21220472440945" startY="119.16472440944882" endX="351.05685039370076" endY="120.16472440944882" type="line">
+        <border color="rgba(217, 217, 217, 1)" width="4" lineCap="round" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="30.413622047244093" height="30.413622047244093" topLeftX="66.41393700787401" topLeftY="205.88070866141732" type="ellipse" id="bLy">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="37" angle="90" blur="72" align="top" color="rgba(0, 0, 0, 0.22)" hScale="0.77" vScale="0.77" />
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bLc">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bLB">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">04 系统实现</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bLn">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

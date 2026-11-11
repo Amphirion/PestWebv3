@@ -1,0 +1,120 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plw">
+    <style>
+      <fill id="flw">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="29.39236220472441" height="88.5" topLeftX="0.00007874015748043917" topLeftY="135.663937007874" type="rect" id="bAL">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" autoFit="normal-auto-fit">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="12" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+        <shadow offset="10" angle="0" blur="20" align="center" color="rgba(38, 38, 38, 0.1)" />
+      </shape>
+      <shape width="148.1699212598425" height="150" topLeftX="357.18748031496057" topLeftY="135.663937007874" type="rect" id="bAM">
+        <fill>
+          <fillImg src="OkJ7bICc6oCcUOxLY9pcwKObnUe" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content verticalAlign="top" paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="148.1699212598425" height="150" topLeftX="518.8168503937007" topLeftY="135.663937007874" type="rect" id="bAo">
+        <fill>
+          <fillImg src="CCSXbwi7OoM3LnxiJtwceGqhnnc" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content verticalAlign="top" paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="39.553858267716535" height="150" topLeftX="680.4461417322834" topLeftY="135.663937007874" type="rect" id="bEg">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content verticalAlign="top" paddingTop="2.7" paddingBottom="2.7" paddingLeft="5.4" paddingRight="5.4" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="85.99795275590552" height="36.3515748031496" topLeftX="75.14007874015748" topLeftY="133.61543307086615" type="text" id="bAh">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2"><strong><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">6</span></strong><strong><span color="rgba(0, 128, 0, 1)" fontSize="1" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false"> </span></strong><strong><span color="rgba(0, 128, 0, 1)" fontSize="24" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">,864</span></strong></p>
+        </content>
+      </shape>
+      <shape width="11.591496062992126" height="11.591496062992126" topLeftX="59.02905511811025" topLeftY="146.9907874015748" rotation="180" flipY="true" type="ellipse" id="bAi">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="8.18007874015748" height="8.18007874015748" topLeftX="60.73480314960628" topLeftY="148.6964566929134" rotation="180" flipY="true" type="ellipse" id="bAJ">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="4.342913385826772" height="4.342913385826772" topLeftX="62.65338582677164" topLeftY="150.5332283464567" rotation="180" flipY="true" type="ellipse" id="bAI">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <line id="bAO" startX="55.36708661417322" startY="173.62023622047244" endX="314.43039370078736" endY="174.62023622047244" type="line">
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="88.31897637795275" height="29.73259842519685" topLeftX="56.388031496062986" topLeftY="182.84527559055118" type="text" id="bAE">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="14" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">最优类别</span></p>
+        </content>
+      </shape>
+      <shape width="259.55425196850393" height="45.43944881889764" topLeftX="56.92677165354331" topLeftY="214.14031496062992" type="text" id="bAU">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">玉米叶斑病最优mAP=0.657，水稻棕斑0.598，玉米叶枯0.503，水稻叶斑0.485，颈瘟0.267，玉米叶锈0.208。</span></p>
+        </content>
+      </shape>
+      <shape width="259.55425196850393" height="45.43944881889764" topLeftX="56.92677165354331" topLeftY="261.94700787401575" type="text" id="bAD">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">玉米叶斑病最优mAP=0.657，水稻棕斑0.598，玉米叶枯0.503，水稻叶斑0.485，颈瘟0.267，玉米叶锈0.208。</span></p>
+        </content>
+      </shape>
+      <shape width="183.37889763779526" height="36.1496062992126" topLeftX="393.67425196850394" topLeftY="290.7248031496063" type="text" id="bAV">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="18" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">最优类别</span></p>
+        </content>
+      </shape>
+      <shape width="183.37889763779526" height="36.1496062992126" topLeftX="551.8013385826772" topLeftY="290.7248031496063" type="text" id="bAA">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="18" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">最优类别</span></p>
+        </content>
+      </shape>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bAm">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bAk">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">03 实验结果</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bAe">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  

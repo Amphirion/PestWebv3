@@ -1,0 +1,57 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="plo">
+    <style>
+      <fill id="flo">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <img id="bOU" src="DlJjbNNW2o5MugxkuSCchBMInIe" width="720" height="404.71582677165355" topLeftX="0" topLeftY="0.1420472440944991">
+        <crop leftOffset="0" rightOffset="0" topOffset="0" bottomOffset="0" />
+      </img>
+      <shape width="509.35196850393703" height="179.25" topLeftX="146.47803149606298" topLeftY="86.34307086614172" presetHandlers="52799" type="parallelogram" id="bOO">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="117.49370078740158" height="65.43283464566929" topLeftX="321.33188976377954" topLeftY="86.34307086614173" type="text" id="bOe">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="48" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">01.</span></p>
+        </content>
+      </shape>
+      <shape width="247.22062992125984" height="65.43283464566929" topLeftX="324.43543307086617" topLeftY="146.11582677165353" type="text" id="bOE">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 0, 0, 1)" fontSize="48" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">研究背景与目标</span></p>
+        </content>
+      </shape>
+      <shape width="141.51448818897637" height="41.198425196850394" topLeftX="400.5830708661417" topLeftY="103.3736220472441" type="text" id="bOi">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(0, 128, 0, 1)" fontSize="28" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">Part </span></p>
+        </content>
+      </shape>
+      <line id="bOV" startX="324.43543307086617" startY="143.68031496062991" endX="589.469842519685" endY="144.68031496062991" type="line">
+        <border color="rgba(0, 128, 0, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="254.99622047244094" height="49.185669291338584" topLeftX="327.459842519685" topLeftY="203.34858267716535" type="rect" id="bOh">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="8" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">分析大田病虫害防治的三大痛点，阐述研究意义与目标，明确技术路线。</span></p>
+        </content>
+      </shape>
+      <shape width="181.3028346456693" height="83.60858267716536" topLeftX="187.32433070866142" topLeftY="144.96866141732283" rotation="90" type="text" id="bOA">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.8" letterSpacing="2.25"><strong><span color="rgba(0, 128, 0, 1)" fontSize="14" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">RESEARCH BACKGROUND AND OBJECTIVES</span></strong></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bOL">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2" marginRight="0"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="微软雅黑" bold="false" italic="false" strikethrough="false" underline="false">分析大田病虫害防治的三大痛点，阐述研究意义与目标，明确技术路线。</span></p>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+      </content>
+    </note>
+  </slide>
+  

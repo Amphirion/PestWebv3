@@ -1,0 +1,102 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="ple">
+    <style>
+      <fill id="fle">
+        <fillColor color="rgba(255, 255, 255, 1)" />
+      </fill>
+    </style>
+    <data>
+      <shape width="9.31031496062992" height="157.03448818897638" topLeftX="54.00007874015748" topLeftY="138.41377952755903" type="rect" id="bVv">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="166.96551181102362" height="255.1032283464567" topLeftX="63.3103937007874" topLeftY="89.37937007874014" type="rect" id="bVH">
+        <fill>
+          <fillImg src="YRR7bmYugoHnH3xlz6gc8LaQn3b" alpha="1" rotateWithShape="true" stretchLeft="0" stretchBottom="0" stretchRight="0" stretchTop="0" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="47.25700787401575" height="162.60062992125984" topLeftX="264.5774803149606" topLeftY="175.67535433070867" vert="ea-vert" type="text" id="bVT">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><strong><span color="rgba(0, 128, 0, 1)" fontSize="18" fontFamily="思源宋体 CN" italic="false" strikethrough="false" underline="false">添加标题</span></strong></p>
+        </content>
+      </shape>
+      <shape width="69.51724409448819" height="7.33503937007874" topLeftX="190.55173228346456" topLeftY="321.9207874015748" type="rect" id="bVd">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="54.21716535433071" height="50.584251968503935" topLeftX="342.40354330708664" topLeftY="105.53732283464565" type="text" id="bVx">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="27" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">01.</span></p>
+        </content>
+      </shape>
+      <shape width="247.9136220472441" height="45.43944881889764" topLeftX="412.50023622047246" topLeftY="111.09433070866143" type="text" id="bVw">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">构建水稻玉米共6类病害标注数据集，总计约2000张图像，按8:2划分为训练集和验证集。</span></p>
+        </content>
+      </shape>
+      <line id="bVn" startX="404.68976377952754" startY="111.72425196850392" endX="405.68976377952754" endY="153.9311023622047" type="line">
+        <border color="rgba(128, 128, 128, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="54.21716535433071" height="50.584251968503935" topLeftX="342.40354330708664" topLeftY="181.57173228346454" type="text" id="bVN">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(0, 128, 0, 1)" fontSize="27" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">02.</span></p>
+        </content>
+      </shape>
+      <shape width="247.9136220472441" height="45.43944881889764" topLeftX="412.50023622047246" topLeftY="188.99070866141733" type="text" id="bVc">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">更改文字的颜色或者大小属性。鼠标构建水稻玉米共6类病害标注数据集，总计约2000张图像，按8:2划分为训练集和验证集。</span></p>
+        </content>
+      </shape>
+      <line id="bVu" startX="404.68976377952754" startY="187.75866141732283" endX="405.68976377952754" endY="229.96551181102362" type="line">
+        <border color="rgba(128, 128, 128, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="54.21716535433071" height="56.34496062992126" topLeftX="342.40354330708664" topLeftY="257.6062992125984" type="text" id="bVF">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(6, 67, 52, 1)" fontSize="27" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">03.</span></p>
+        </content>
+      </shape>
+      <shape width="247.9136220472441" height="45.43944881889764" topLeftX="412.50023622047246" topLeftY="263.16330708661417" type="text" id="bVy">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="justify" autoFit="shape-auto-fit">
+          <p textAlign="justify" lineSpacing="multiple:1.8"><span color="rgba(38, 38, 38, 1)" fontSize="10.5" fontFamily="思源宋体 CN" bold="false" italic="false" strikethrough="false" underline="false">鼠标构建水稻玉米共6类病害标注数据集，总计约2000张图像，按8:2划分为训练集和验证集。</span></p>
+        </content>
+      </shape>
+      <line id="bVs" startX="404.68976377952754" startY="263.7932283464568" endX="405.68976377952754" endY="306.00007874015756" type="line">
+        <border color="rgba(128, 128, 128, 1)" width="1" lineJoin="miter" miterLimit="10" />
+        <startArrow widthScale="med" heightScale="med" />
+        <endArrow widthScale="med" heightScale="med" />
+      </line>
+      <shape width="181.31259842519685" height="32.51267716535433" topLeftX="-22.687480314960638" topLeftY="23.868582677165357" presetHandlers="52799" type="parallelogram" id="bVq">
+        <fill>
+          <fillColor color="rgba(0, 128, 0, 1)" />
+        </fill>
+        <content paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)">
+          <p textAlign="center" lineSpacing="multiple:1.2"><span color="rgba(255, 255, 255, 1)" fontSize="10.13" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false"> </span></p>
+        </content>
+      </shape>
+      <shape width="141.46456692913387" height="31.50472440944882" topLeftX="10.072913385826766" topLeftY="24.876535433070867" type="text" id="bVf">
+        <content verticalAlign="top" paddingTop="3.6" paddingBottom="3.6" paddingLeft="7.2" paddingRight="7.2" fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)" textAlign="left" autoFit="shape-auto-fit">
+          <p textAlign="left" lineSpacing="multiple:1.2" letterSpacing="2.25"><span color="rgba(255, 255, 255, 1)" fontSize="20" fontFamily="思源宋体 CN Heavy" bold="false" italic="false" strikethrough="false" underline="false" letterSpacing="2.25">02 系统设计</span></p>
+        </content>
+      </shape>
+    </data>
+    <note id="bVY">
+      <content>
+        <p textAlign="left" lineSpacing="multiple:1.2"><span color="rgba(0, 0, 0, 1)" fontSize="9" fontFamily="等线" bold="false" italic="false" strikethrough="false" underline="false">本页内容详见演讲备注。</span></p>
+      </content>
+    </note>
+  </slide>
+  
